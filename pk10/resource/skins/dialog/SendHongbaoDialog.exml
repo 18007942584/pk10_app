@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FachuHongbaoDialog" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="640" height="1136" left="0" top="0">
+		<e:Image source="bg_png" scaleX="1" scaleY="1" left="0" top="0"/>
+		<e:Image source="ding_2_png" top="0" left="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="ReceiveImage" source="receive_png" x="557.6" y="30"/>
+		<e:Label id="ShutDownLabel" text="关闭" x="14" textColor="0xf4b855" top="30"/>
+		<e:Label text="发出的红包" horizontalCenter="0" top="30" fontFamily="Microsoft YaHei" textColor="0xf4b855"/>
+		<e:Label id="NameLabel" text="隔壁老王共发出" top="150" fontFamily="Microsoft YaHei" textColor="0x070707" horizontalCenter="0"/>
+		<e:Label id="totalLabel" text="100000元" top="240" fontFamily="Microsoft YaHei" textColor="0x070707" bold="true" size="38" horizontalCenter="0.5"/>
+		<e:Label id="errorLebel" text="暂无数据" fontFamily="Microsoft YaHei" textColor="0x070707" bold="true" size="38" verticalCenter="-160" horizontalCenter="0"/>
+		<e:Label id="SendLabel" text="发出50个红包" top="315" fontFamily="Microsoft YaHei" size="30" horizontalCenter="1" textColor="0xa8a8a8"/>
+		<e:Label id="DateLabel" text="2018-02-07" top="119" fontFamily="Microsoft YaHei" size="20" horizontalCenter="243" textColor="0xA8A8A8"/>
+		<e:Image id="xialaImage" source="xiala_png" x="551.56" y="145.59"/>
+		<e:Group id="dateListGroup" width="120" height="200" y="160.3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="242">
+			<e:Scroller width="120" height="200" scaleX="1" scaleY="1" scrollPolicyH="off" left="0" top="0">
+			<e:Group id="dateListScrollerGroup" anchorOffsetX="0" width="120" height="200"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Scroller id="GameScroller" width="640" height="700" x="2" anchorOffsetX="0" anchorOffsetY="0" bottom="0">
+			<e:Group id="GameGroup" anchorOffsetY="0" height="730.3">
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

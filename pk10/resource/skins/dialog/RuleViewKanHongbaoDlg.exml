@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RuleViewHongbaoSateDlg" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="640" height="1136" left="0" top="0" x="10" y="10">
+		<e:Group width="640" height="1136" left="0" top="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image source="bg_png" scaleX="1" scaleY="1" left="0" top="0"/>
+			<e:Image source="date_png" right="0" top="216"/>
+			<e:Label id="TxteLabel" text="10个红包共50元，50秒被抢光" y="220.04" size="35" fontFamily="Microsoft YaHei" textColor="0x797C7C" left="16"/>
+			<e:Image source="ding_1_png" left="0" top="0"/>
+			<e:Label text="隔壁老王的红包" x="148" y="112" textColor="0xF79C07" size="50" bold="true" fontFamily="Microsoft YaHei"/>
+			<e:Image source="Exit_png" x="15.31" y="16.95"/>
+			<e:Image source="details_png" x="524.27" y="14.6"/>
+			<e:Scroller width="640" height="840" y="285.69" anchorOffsetY="0" left="0">
+				<e:Group anchorOffsetX="0" width="205.33" anchorOffsetY="0" height="208">
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+		<e:Group width="640" height="1136" left="0" top="0" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image width="640" height="1136" x="0" y="0" alpha="0.3" scale9Grid="2,3,48,47" source="bg_mask_new_png" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+			<e:Image source="hongbao_1_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="手慢了，红包派完了" x="148" y="372" size="40" fontFamily="Microsoft YaHei" textColor="0xeaba6b"/>
+			<e:Image source="ShutDown_png" x="540" y="254"/>
+			<e:Image id="ToViewDateImage" source="ToViewDate_png" x="242" y="876"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

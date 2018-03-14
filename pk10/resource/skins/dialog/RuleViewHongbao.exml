@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RuleViewHongbaoSkin" width="540" height="1500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backgroundImage" width="540" height="1500" x="0" y="0" alpha="0.3" scale9Grid="2,3,48,47" source="bg_mask_new_png"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" left="0" right="0" top="0" bottom="0">
+		<e:Image scaleX="1" scaleY="1" left="2" right="-2" top="0" bottom="0" source="userlistimg_new_png" scale9Grid="12,11,96,104"/>
+		<e:Scroller id="GameScroller" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+		<e:Group id="itemGroup" anchorOffsetX="0" width="540" anchorOffsetY="0" height="500">
+			<e:Group height="260" y="10" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" source="guize_circle_bg_png" scale9Grid="47,44,98,19" left="0" right="0" top="0" bottom="0"/>
+				<e:Label text="时间：下午09:02- 23:57" x="38" y="18" size="23" textColor="0xf4e84f" italic="true"/>
+				<e:Label text="每五分钟开奖一次" x="326" y="16" size="23" italic="true"/>
+				<e:Label text="以秒速赛车官方开奖结果赛车埋雷，更公正，" x="36.48" y="49.93" size="23" italic="true" multiline="false"/>
+				<e:Image width="160" height="160" x="361.97" y="87.87" anchorOffsetX="0" anchorOffsetY="0" source="guize_notice_png"/>
+				<e:Label text="更有可信度的娱乐游戏（单雷）" x="34.5" y="81.98" size="23" italic="true"/>
+				<e:Label text="玩家可自行选择雷的位置。" x="38" y="135" size="23"/>
+				<e:Label text="不同的包有不同的赔率，" x="39" y="172" size="23"/>
+				<e:Label text="要足够赔付金额，才能抢包，" x="41" y="205" size="23"/>
+			</e:Group>
+			<e:Group height="180" y="280" left="0" right="0">
+				<e:Image width="256" height="31" x="23" y="14" anchorOffsetX="0" anchorOffsetY="0" source="guize_title_guize_png"/>
+				<e:Label text="玩家可自行选择雷的位置。" x="26.05" y="56" size="20" italic="true"/>
+				<e:Label text="不同的包有不同的赔率，要足够赔付金额，才能抢包，" y="88.71" size="20" anchorOffsetY="0" x="24.51" italic="true"/>
+				<e:Label text="如：50元5包2.00倍，玩家需要筹码有100才能参与抢包，" x="24.53" y="122.95" size="20" italic="true"/>
+				<e:Label text="抢到包后自动冻结筹码，等开奖后结算。依此类推" x="23.92" y="154.14" size="20" italic="true"/>
+			</e:Group>
+			<e:Group height="100" y="480" left="0" right="0">
+				<e:Label text="为了回馈广大玩家，平台有奖池的机制，" x="25.52" y="10.55" size="20" italic="true"/>
+				<e:Label text="如抢到豹子，顺子等数字，平台将会有相应的奖励。" y="41.17" size="20" anchorOffsetY="0" x="25.52" italic="true"/>
+			</e:Group>
+			<e:Image width="350" height="98" anchorOffsetX="0" anchorOffsetY="0" source="guize_footer_png" right="2" bottom="2"/>
+		</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

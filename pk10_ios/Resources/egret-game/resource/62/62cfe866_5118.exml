@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoomSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="640" height="1133.33" x="0" y="2.67" anchorOffsetY="0" source="reg_bg_new_png"/>
+	<e:Image id="room_list_bg" width="560" height="620" x="40" y="494.84" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="userlistimg_new_png" scale9Grid="15,81,95,19"/>
+	<!--<e:Image width="640" height="1136" x="1" y="0" source="bg_room_type_png"/>-->
+	<e:Group width="638" height="160" x="1" y="1">
+		<e:Group width="636" height="160" x="1" y="0" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image width="636" height="160" x="-1" y="1" anchorOffsetX="0" anchorOffsetY="0" source="bg_room_top_new_png"/>
+			<e:Label id="balanceLabel" text="0.00" x="51" y="96" textColor="0xefa12b" anchorOffsetX="0" textAlign="left" size="25"/>
+			<e:Label id="onlineCountLabel" text="0" x="284" y="96" textColor="0xEFA12B" anchorOffsetX="0" width="80" textAlign="center" size="28"/>
+		</e:Group>
+		<e:Group width="400" height="80" x="2" y="0">
+			<e:Image id="backImage" width="59" height="56" x="4.99" y="12" source="btn_back_png" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image width="326" height="46" x="63.99" y="17" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="bg_room_top_name_png"/>
+			<e:Label id="nameLabel" text="加载中" x="115.66" y="29.99" anchorOffsetX="0" width="274.33" anchorOffsetY="0" height="32.01" scaleX="1" scaleY="1" textColor="0xd3d3d3" size="24"/>
+		</e:Group>
+		<e:Group width="235" height="160" x="402" y="1" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="tikuanImage" width="88" height="120" x="29" y="20" anchorOffsetX="0" anchorOffsetY="0" source="btn_tikuan_png"/>
+			<e:Image id="chongzhiImage" width="88" height="120" x="135" y="20" anchorOffsetX="0" anchorOffsetY="0" source="btn_chongzhi_png"/>
+		</e:Group>
+		<e:Group id="game_type_group" width="637" height="230" x="0" y="160" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image id="type_image_1" name="paijiuImage" x="32.69" anchorOffsetX="0" anchorOffsetY="0" top="0" width="180" height="220" source="btn_longhu_s_png"/>
+			<!--<e:Button id="paijiuButton" label="" width="150" height="180" x="52" y="21.5" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image id="paijiuImage" name="paijiuImage" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" source="btn_paijiu_s_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>-->
+			<e:Image id="type_image_2" name="niuniuImage" source="btn_niuniu_n_png" anchorOffsetX="0" anchorOffsetY="0" top="0" width="180" height="220" x="230"/>
+			<e:Image id="type_image_3" name="hongbaoImage" x="418.32" anchorOffsetX="0" anchorOffsetY="0" top="0" width="180" height="220" y="10" source="btn_qianghongbao_n_png"/>
+			<!--<e:Button id="niuniuButton" label="" width="150" height="180" x="243" y="21.5" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image id="nuiniuImage" name="niuniuImage"  width="100%" height="100%" source="btn_niuniu_n_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>-->
+			<e:Image id="sangongImage" name="sangongImage"  width="150" height="180" x="431" y="21.5" source="btn_sangong_n_png" visible="false"/>
+			<!--<e:Button id="sangongButton" label="" width="150" height="180" x="431" y="21.5" anchorOffsetX="0" anchorOffsetY="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image id="sangongImage" name="sangongImage"  width="100%" height="100%" source="btn_sangong_n_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>-->
+		</e:Group>
+		<e:Group id="banker_type_group" height="100" y="390" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" left="0" right="0">
+			<e:ToggleButton id="banker_button_1" label="" x="95" selected="true" scaleX="1" scaleY="1" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="arena1_png" source.down="arena2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+			<e:ToggleButton id="banker_button_2" label="" x="331.55" scaleX="1" scaleY="1" verticalCenter="0">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="VIP1_png" source.down="VIP2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:ToggleButton>
+		</e:Group>
+	</e:Group>
+	<e:Scroller id="room_list_scroller" width="640" height="644.97" x="0" y="488.79" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:Group id="itemGroup" anchorOffsetY="0" height="735.88">
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

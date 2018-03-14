@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rewardResultItemList" width="540" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="RewardSelecGaoup" width="540" height="100" name="RewardSelecGaoup" top="0" left="0">
+		<e:Image anchorOffsetY="0" left="0" top="0" height="100" width="540" anchorOffsetX="0" x="0" y="0" scaleX="1" scaleY="1" source="bglist_tankuang_new_png"/>
+		<e:Label id="NoerLabel" text="6554917期" x="93" size="18" top="10" textColor="0x73CDE1" y="15" scaleX="1" scaleY="1" name="NoerLabel"/>
+		<e:Label id="TimeLabel" text="2017-12-11 10:27:00" x="320" size="18" top="13" textColor="0x73CDFF" y="13" scaleX="1" scaleY="1" name="TimeLabel"/>
+		<e:Image id="win2" source="win_icon_png" x="361" y="59" name="win2"/>
+		<e:Image id="win1" source="win_icon_png" x="94" y="59" name="win1"/>
+		<e:Image id="niuniu1" source="n1_png" x="108" name="niuniu1" width="60" height="30" verticalCenter="0"/>
+		<e:Image id="niuniu2" source="n2_png" x="362" name="niuniu2" width="60" height="30" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

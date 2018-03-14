@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CarConcludeDialogSkin" width="370" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label name="nameLabel" id="nameLabel" text="1. 追忆过去" size="25" left="40" verticalCenter="0" fontFamily="SimHei"/>
+	<e:Label name="valueLabel" id="valueLabel" text="20" size="25" verticalCenter="0" right="12" fontFamily="SimHei"/>
+</e:Skin>

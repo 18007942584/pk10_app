@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ServiceDialogSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backgroundImage" width="640" height="1136" alpha="0.3" scale9Grid="2,3,48,47" left="0" top="0" source="bg_mask_new_png"/>
+	<e:Group width="580" height="290" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" touchEnabled="false" x="30">
+		<e:Image width="580" height="290" x="0" y="0" scaleX="1" scaleY="1" source="bg_popup_new_png" scale9Grid="25,23,76,17"/>
+		<e:Image id="closeImage" width="45" height="45" top="222" y="5" scaleX="1" scaleY="1" horizontalCenter="0" source="btn_yes_png" visible="false"/>
+		
+		<e:Button id="confirmButton" label="" y="200" width="160" height="60" horizontalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_yes_png"/>
+				<e:Label text="确定" anchorOffsetX="0" width="160" size="30" anchorOffsetY="0" height="60" textColor="0xffffff" horizontalCenter="0" verticalAlign="middle" textAlign="center"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="weixinLabel" text="微信：ksksksksk" y="70" anchorOffsetX="0" size="25" anchorOffsetY="0" height="30" textColor="0xffffff" left="80" right="50"/>
+		<e:Label id="qqLabel" text="QQ：133313131" y="110" anchorOffsetX="0" size="25" anchorOffsetY="0" height="30" textColor="0xffffff" left="80" right="50"/>
+	</e:Group>
+</e:Skin>

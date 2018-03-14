@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonDialogSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backgroundImage" width="640" height="1136" x="0" y="0" alpha="0.3" source="bg_mask_new_png" scale9Grid="15,9,52,108"/>
+	<e:Group width="580" height="700" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Image width="580" height="700" x="0" y="0" scaleX="1" scaleY="1" source="betListBg_new_png" scale9Grid="33,153,129,58"/>
+		<e:Image id="menImage" width="558" height="40" x="10" y="85" anchorOffsetX="0" anchorOffsetY="0" source=""/>
+		<e:Label id="ruleLabel" text="" size="18" scaleX="1" scaleY="1" anchorOffsetX="0" width="500" anchorOffsetY="0" height="537.61" textAlign="center" top="139" horizontalCenter="0" textColor="0xffffff" visible="false"/>
+		<e:Group id="rewardResultGroup" width="150" height="70" x="33" y="10" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="rewardSelectBgImage" width="150" height="70" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" source="" name="rewardSelectBgImage"/>
+			<e:Label text="开奖结果" width="150" height="30" verticalCenter="0" horizontalCenter="0" textAlign="center"/>
+		</e:Group>
+		<e:Group id="officialResultGroup" width="150" height="70" x="215" y="10" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="officialSelectBgImage" width="150" height="70" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" source="" name="officialSelectBgImage"/>
+			<e:Label text="官方结果" width="150" height="30" verticalCenter="0" horizontalCenter="0" textAlign="center"/>
+		</e:Group>
+		<e:Group id="gameRuleGroup" width="150" height="70" x="397" y="10" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image id="ruleSelectBgImage" width="150" height="70" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" source="betlistbtn_s_png" name="ruleSelectBgImage"/>
+			<e:Label text="游戏规则" width="150" height="30" verticalCenter="0" horizontalCenter="0" textAlign="center"/>
+		</e:Group>
+		<e:Scroller id="GameScroller" width="540" height="540" x="20" y="130" bounces="true" throwSpeed="0" scrollPolicyH="off">
+			<e:Group id="GameGroup">
+				<e:Button id="gameRuleButton" width="540" height="1500" x="0" y="0" skinName="EmptySkin"/>
+				<e:Label id="extraIntro" text="" width="540" textAlign="left" y="1230" scaleX="1" scaleY="1" fontFamily="SimHei" left="0" lineSpacing="10"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+	<e:Image id="closeImage" width="100" height="100" y="920" scaleX="1" scaleY="1" source="closeBtn_png" horizontalCenter="0"/>
+</e:Skin>

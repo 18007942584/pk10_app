@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoomSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="640" height="1136" x="0" y="0" alpha="1" source="reg_bg_new_png"/>
+	<e:Image width="190" height="50" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" y="78.62" source="reg_title_new_png"/>
+	<e:Group width="600" height="900" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" top="160" horizontalCenter="0" y="160">
+		<e:Group width="500" height="80" y="30" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image width="500" height="80" x="0" y="0" source="bg_input_new_png" scale9Grid="22,24,83,30"/>
+			<e:TextInput id="nicknameLabel" width="480" height="80" x="20" y="0" anchorOffsetX="0" anchorOffsetY="0" prompt="昵称" textColor="0xffffff"/>
+		</e:Group>
+		<e:Group width="500" height="80" y="140" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image width="500" height="80" x="0" y="0" source="bg_input_new_png" scale9Grid="27,23,74,29"/>
+			<e:TextInput id="phoneLabel" width="480" height="80" x="20" y="0" anchorOffsetX="0" anchorOffsetY="0" prompt="手机号码" textColor="0xffffff"/>
+		</e:Group>
+		<e:Group width="500" height="80" y="250" anchorOffsetX="0" anchorOffsetY="0" x="50">
+			<e:Image width="500" height="80" x="0" y="0" source="bg_input_new_png" scale9Grid="23,21,82,31"/>
+			<e:TextInput id="verifyLabel" height="80" anchorOffsetX="0" anchorOffsetY="0" prompt="验证码" textColor="0xffffff" y="0" left="20" right="150"/>
+			<e:Button id="getCodeButton" label="" x="360" y="0" anchorOffsetX="0" width="140" anchorOffsetY="0" height="80">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_mobile_code_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="remainTimeLabel" text="60s" x="360" y="2" anchorOffsetX="0" width="140" anchorOffsetY="0" height="76" textAlign="center" verticalAlign="middle" fontFamily="SimHei" size="35" visible="false"/>
+		</e:Group>
+		<e:Group width="500" height="80" y="360" anchorOffsetX="0" anchorOffsetY="0" x="50">
+			<e:Image width="500" height="80" x="0" y="0" source="bg_input_new_png" scale9Grid="23,20,80,35"/>
+			<e:TextInput id="passwordLabel" width="480" height="80" x="20" y="0" anchorOffsetX="0" anchorOffsetY="0" prompt="请输入密码" textColor="0xffffff" displayAsPassword="true"/>
+		</e:Group>
+		<e:Group width="500" height="80" y="470" anchorOffsetX="0" anchorOffsetY="0" x="50">
+			<e:Image width="500" height="80" x="0" y="0" source="bg_input_new_png" scale9Grid="24,23,80,31"/>
+			<e:TextInput id="repasswordLabel" width="480" height="80" x="20" y="0" anchorOffsetX="0" anchorOffsetY="0" prompt="请再输入密码" textColor="0xffffff" displayAsPassword="true"/>
+		</e:Group>
+		<e:Group width="500" height="80" y="570" anchorOffsetX="0" anchorOffsetY="0" x="50">
+			<e:Image width="500" height="80" x="0" y="0" source="bg_input_new_png" scale9Grid="26,21,76,31"/>
+			<e:TextInput id="codeLabel" width="480" height="80" x="20" y="0" anchorOffsetX="0" anchorOffsetY="0" prompt="请输入安全码" textColor="0xffffff"/>
+		</e:Group>
+		<e:Button id="nextStepButton" label="" x="50" anchorOffsetX="0" width="500" anchorOffsetY="0" height="100" y="700">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_reg_fang_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="backButton" label="" anchorOffsetX="0" anchorOffsetY="0" x="250" width="100" height="100" y="830">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_register_back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	
+</e:Skin>

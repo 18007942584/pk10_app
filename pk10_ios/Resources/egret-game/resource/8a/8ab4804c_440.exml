@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CarConcludeDialogSkin" width="500" height="35" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label name="nameLeftLabel" text="" size="20" verticalCenter="0.5" textColor="0x00ffff" textAlign="left" width="200" x="75"/>
+	<e:Label name="nameRightLabel" text="" size="20" verticalCenter="0.5" textColor="0x00ffff" width="200" textAlign="left" x="275"/>
+</e:Skin>

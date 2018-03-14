@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetNiuniuInfoCell" width="462" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" name="betCellGroup" right="0" bottom="0">
+		<e:Image id="detailCellBgImage" left="0" right="0" top="-1" bottom="1" source="userlistimg_new_png" x="0" y="0" scaleX="1" scaleY="1" width="462" name="detailCellBgImage" scale9Grid="15,16,95,96"/>
+		<e:Group id="detailsHeadGroup" width="460" height="76" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" name="detailsHeadGroup">
+			<e:Image id="detailsShowImage" width="20" height="20" x="10" y="14" source="details_open_png" name="detailsShowImage"/>
+			<e:Label id="timeLabel" text="2018-01-06 14:02:34" x="40" y="14" size="20" fontFamily="SimHei" name="timeLabel"/>
+			<e:Label text="本局收益：" x="242" y="14" size="20" fontFamily="SimHei"/>
+			<e:Label id="resultValueLabel" name="resultValueLabel" text="-1300" size="22" textAlign="right" x="341" y="15" scaleX="1" scaleY="1" textColor="0xc31616"/>
+			<e:Label id="gameDetailLabel" text="[北京赛车-654555期-牛牛]" x="40" y="43" size="22" fontFamily="SimHei" name="gameDetailLabel"/>
+		</e:Group>
+		<e:Group id="detailsMainGroup" width="460" height="168" y="78" anchorOffsetX="0" anchorOffsetY="0" x="1" name="detailsMainGroup">
+			<e:Label text="前区" x="114" y="18" size="22" fontFamily="SimHei" textColor="0xE7D648"/>
+			<e:Label text="后区" x="299" y="18" size="22" fontFamily="SimHei" textColor="0xE7D648"/>
+			<e:Label id="code_qianqu_label" text="01 09 06 04 03" x="69" y="50" size="20" fontFamily="SimHei" name="code_qianqu_label" textAlign="center"/>
+			<e:Label id="code_houqu_label" text="05 07 02 08 10" x="254" y="51" size="20" fontFamily="SimHei" name="code_houqu_label" textAlign="center"/>
+			<e:Image id="qianquImage" width="44" height="22" x="114" y="81" source="n3_png" name="qianquImage"/>
+			<e:Image id="houquImage" width="44" height="22" x="299" y="81" source="n2_png" name="houquImage"/>
+			<e:Label id="qianqu_totalbet_label" text="7090" y="120" size="20" x="101" width="66" textAlign="center" textColor="0x10c46d" name="qianqu_totalbet_label"/>
+			<e:Label id="houqu_totalbet_label" text="9000" y="120" size="20" x="289" width="66" textAlign="center" textColor="0x10c46d" name="houqu_totalbet_label"/>
+			<e:Label id="qianqu_bet_label" text="0" y="142" size="20" x="101" width="66" textAlign="center" name="qianqu_bet_label"/>
+			<e:Label id="houqu_bet_label" text="1300" y="142" size="20" x="289" width="66" textAlign="center" name="houqu_bet_label"/>
+			<e:Image id="qianquZhuangImage" width="30" height="30" x="138" y="101" source="details_zhuang_png" name="qianquZhuangImage"/>
+			<e:Image id="houquZhuangImage" width="30" height="30" x="325" y="101" source="details_zhuang_png" name="houquZhuangImage"/>
+		</e:Group>
+		<e:Image width="460" height="2" y="248" anchorOffsetX="0" anchorOffsetY="0" source="details_line_ong"/>
+	</e:Group>
+</e:Skin>

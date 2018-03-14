@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CommonHongbao" width="640" height="135" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="CommonGaoup" width="640" height="135" left="0" verticalCenter="0" name="CommonGaoup">
+		<e:Image source="record_png" left="0" x="0" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Label id="NameLabel" text="隔壁王老王" x="31" textColor="0x282626" fontFamily="Microsoft YaHei" size="25" top="30" name="NameLabel"/>
+		<e:Label id="TimeLabel" text="2018年2月2日 11:17:53" x="31" fontFamily="Microsoft YaHei" size="25" bottom="30" textColor="0xb2aeae" name="TimeLabel"/>
+		<e:Label id="GoldLabel" text="100.00元" x="441" textColor="0x282626" fontFamily="Microsoft YaHei" size="25" verticalCenter="-20" name="GoldLabel"/>
+		<e:Label id="rayLabel" text="雷号:8" x="441" textColor="0x282626" fontFamily="Microsoft YaHei" size="25" verticalCenter="30" name="rayLabel"/>
+	</e:Group>
+</e:Skin>

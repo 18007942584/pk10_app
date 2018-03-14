@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RuleViewSscDanzhangSkin" width="540" height="1500" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backgroundImage" width="540" height="1500" x="0" y="0" alpha="0.3" scale9Grid="2,3,48,47" source="bg_mask_new_png"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" left="0" right="0" top="0" bottom="0">
+		<e:Image scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0" source="userlistimg_new_png" scale9Grid="12,11,96,104"/>
+		<e:Scroller id="GameScroller" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scaleX="1" scaleY="1" left="0" right="0" top="0" bottom="0">
+		<e:Group id="itemGroup" anchorOffsetX="0" width="540" anchorOffsetY="0" height="500">
+			<e:Image height="480" y="0" left="0" right="0" source="guize_head_ssc_png"/>
+			<e:Group height="280" y="510" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" source="guize_circle_bg_png" scale9Grid="47,44,98,19" left="0" right="0" top="0" bottom="0"/>
+				<e:Label text="时间：上午10:00 - 22:00" x="38" y="18" size="23" textColor="0xf4e84f" italic="true"/>
+				<e:Label text="每十分钟开奖一次" x="301.68" y="17.52" size="23" italic="true"/>
+				<e:Label text="龙虎斗根据重庆时时彩官方结果采集而来" x="38" y="82" size="23" italic="true"/>
+				<e:Label text="保证结果的公平性" x="41.94" y="114.72" size="23" italic="true"/>
+				<e:Label text="每五分钟开奖一次" x="219.03" y="49.52" size="23" italic="true"/>
+				<e:Label text="22:00 - 凌晨2:00" x="38" y="50" size="23" textColor="0xf4e84f"/>
+				<e:Label text="为官方结果" x="166.34" y="170.55" size="23" italic="true"/>
+				<e:Label text="①②③④⑤" x="44.06" y="172.06" size="23" textColor="0xF4E84F"/>
+				<e:Image width="160" height="160" x="361.97" y="110.67" anchorOffsetX="0" anchorOffsetY="0" source="guize_notice_png"/>
+			</e:Group>
+			<e:Group height="140" y="804" left="0" right="0" scaleX="1" scaleY="1">
+				<e:Image width="250" height="80" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" source="guize_area_3_png"/>
+			</e:Group>
+			<e:Group height="220" y="954" left="0" right="0">
+				<e:Image width="256" height="31" x="23" y="14" anchorOffsetX="0" anchorOffsetY="0" source="guize_title_guize_png"/>
+				<e:Label text="点数牌的比较:" x="56.35" y="56" size="23" italic="true"/>
+				<e:Label text="10&gt;9&gt;8&gt;7&gt;6&gt;5&gt;4&gt;3&gt;2&gt;1" y="91.74" size="23" anchorOffsetY="0" x="56.35" italic="true"/>
+				<e:Label text="如果同点则双方没输赢" x="56.35" y="165.32" size="23" italic="true"/>
+				<e:Label text="10号球最大，0号球最小" x="57.87" y="129.98" size="23" textColor="0xf4e84f" italic="true"/>
+				<e:Image width="20" height="20" x="24.16" y="56.52" source="guize_dot_png"/>
+			</e:Group>
+			<e:Group height="250" y="1174" left="0" right="0">
+				<e:Image width="256" height="30" x="24.12" y="14" anchorOffsetX="0" anchorOffsetY="0" source="guize_title_jiesuan_png"/>
+				<e:Label text="赔率1:0.97的赔付流程" x="58.88" y="59.04" size="23" italic="true"/>
+				<e:Label text="如果金币不够赔付按照下注比例分配输出" y="100.3" size="23" anchorOffsetY="0" x="58.88" italic="true"/>
+				<e:Label text="赔付流程是依大吃小的赔付方式进行赔付" x="58.88" y="140.04" size="23" italic="true"/>
+				<e:Label text="如投注区域不产生输赢关系，则结算后退回" x="58.88" y="181.4" size="23" italic="true"/>
+				<e:Image width="20" height="20" x="24" y="58" source="guize_dot_png"/>
+			</e:Group>
+			<e:Image width="350" height="98" anchorOffsetX="0" anchorOffsetY="0" source="guize_footer_png" right="2" bottom="2"/>
+		</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

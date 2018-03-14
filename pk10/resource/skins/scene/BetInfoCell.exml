@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetInfoCell" width="442" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" name="betCellGroup" right="0" bottom="0">
+		<e:Image left="0" right="0" top="0" bottom="0" source="userlistimg_new_png" x="0" y="0" scaleX="1" scaleY="1" scale9Grid="15,16,95,96"/>
+		<e:Label name="betNameLabel" id="betNameLabel" text="6255412期" size="21" textColor="0xffffff" anchorOffsetX="0" anchorOffsetY="0" x="6" width="428" y="9" height="211" lineSpacing="1" fontFamily="SimHei"/>
+		<e:Label name="betValueLabel" id="betValueLabel" text="100" size="22" textColor="0xf9c468" textAlign="right" right="0" bottom="0"/>
+	</e:Group>
+</e:Skin>

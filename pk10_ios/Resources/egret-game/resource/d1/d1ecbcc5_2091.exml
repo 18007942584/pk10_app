@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  width="462" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" name="betCellGroup" left="0" top="0">
+		<e:Image id="detailCellBgImage" left="0" right="0" top="-1" bottom="1" source="userlistimg_new_png" x="0" y="0" scaleX="1" scaleY="1" width="462" name="detailCellBgImage" scale9Grid="15,16,95,96"/>
+		<e:Group id="detailsHeadGroup" width="460" height="76" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" name="detailsHeadGroup">
+		<e:Image id="detailsShowImage" width="20" height="20" x="10" y="14" source="details_open_png" name="detailsShowImage"/>
+		<e:Label id="timeLabel" text="2018-01-06 14:02:34" x="40" y="14" size="20" fontFamily="SimHei" name="timeLabel"/>
+		<e:Label text="本局收益：" x="242" y="14" size="20" fontFamily="SimHei"/>
+		<e:Label id="resultValueLabel" name="resultValueLabel" text="+1300" size="22" textAlign="right" x="341" y="15" scaleX="1" scaleY="1" textColor="0x3ADB0F"/>
+		<e:Label id="gameDetailLabel" text="[欧洲秒速赛车-20180105078期-猴塞雷]" x="40" y="43" size="22" fontFamily="SimHei" name="gameDetailLabel"/>
+		</e:Group>
+		<e:Group id="detailsMainGroup" width="460" height="168" y="78" anchorOffsetX="0" anchorOffsetY="0" x="1" name="detailsMainGroup">
+		<e:Label text="雷号" x="42" y="14" size="22" fontFamily="SimHei" textColor="0xE7D648"/>
+			<e:Label text="领取金额" x="22" y="64" size="22" fontFamily="SimHei" textColor="0xE7D648" visible="false"/>
+			<e:Label text="开奖结果" x="18" y="112" size="22" fontFamily="SimHei" textColor="0xE7D648" visible="false"/>
+		<e:Label id="code_ray_label" text="8" x="332" y="8" size="20" fontFamily="SimHei" width="66" textAlign="center" name="code_hu_label"/>
+			<e:Label id="code_result_label" text="8" x="332" y="68" size="20" fontFamily="SimHei" width="66" textAlign="center" name="code_hu_label" visible="false"/>
+		</e:Group>
+		<e:Image width="460" height="2" y="248" anchorOffsetX="0" anchorOffsetY="0" source="details_line_ong"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Caihongbao" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="640" height="1136" left="0" top="0">
+		<e:Group id="PackageGroup" width="640" height="1136" left="0" top="0">
+			<e:Image source="bg_png" scaleX="1" scaleY="1" left="0" top="0"/>
+			<e:Image source="ding_1_png" top="0" left="0"/>
+			<e:Image id="ExitImage" x="18" y="20" source="Exit_png"/>
+			<e:Image source="date_png" right="0" top="386"/>
+			<e:Image id="TheDetailImage" source="details_png" x="534" y="12"/>
+			<e:Label id="NameLabel" text="隔壁老王的红包" y="88" textColor="0xf79c07" size="30" fontFamily="Microsoft YaHei" textAlign="center" horizontalCenter="3"/>
+			<e:Label id="GodlNumLabel" text="5.00元" y="252" size="50" textColor="0x070707" fontFamily="Microsoft YaHei" bold="true" horizontalCenter="6.5"/>
+			<e:Label id="TimeLabel" text="抢到5.00，等待开奖" y="324" size="24" fontFamily="Microsoft YaHei" textColor="0x0b30ea" horizontalCenter="17"/>
+			<e:Label id="TxteLabel" text="10个红包共50元，50秒被抢光" y="404" size="24" fontFamily="Microsoft YaHei" textColor="0x797c7c" left="16"/>
+			<e:Scroller id="GameScroller" width="640" height="680" y="440" anchorOffsetX="0" left="0" anchorOffsetY="0">
+			<e:Group id="GameGroup" anchorOffsetX="0" width="336">
+			</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

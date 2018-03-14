@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CarConcludeDialogSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backgroundImage" width="640" height="1136" x="0" y="0" alpha="0.3" scale9Grid="2,3,48,47" source="bg_mask_new_png"/>
+	<e:Group width="500" height="500" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Image width="500" height="500" x="0" y="0" scaleX="1" scaleY="1" source="userListBg_new_png" scale9Grid="36,111,98,51"/>
+		<e:Scroller width="470" height="360" x="15" y="120" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scaleX="1" scaleY="1">
+		<e:Group id="itemGroup" height="360">
+			<e:Group id="cellGroup" width="470" height="35" x="0">
+			<e:Label id="nameLabel0" text="1. 追忆过去" size="25" verticalCenter="0" x="20" textColor="0x08D1B2"/>
+			</e:Group>
+		</e:Group>
+		</e:Scroller>
+		<e:Label text="当前房间人数:" y="20" size="25" scaleX="1" scaleY="1" horizontalCenter="0" textColor="0xFFFFFF"/>
+		<e:Label text="当前房间人数:" x="24" y="70" size="20" scaleX="1" scaleY="1" textColor="0xFFFFFF"/>
+		<e:Label id="userCountLabel0" text="0" y="70" size="20" scaleX="1" scaleY="1" textAlign="right" x="380" textColor="0xFFFFFF"/>
+	</e:Group>
+	<e:Image id="closeImage" width="80" height="80" y="820" scaleX="1" scaleY="1" source="closeBtn_png" horizontalCenter="0"/>
+</e:Skin>

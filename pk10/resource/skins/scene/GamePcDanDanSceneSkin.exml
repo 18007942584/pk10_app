@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GamePcDanDanSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1606f72f1e3"/>
+	<e:Scroller id="mainScroller" width="640" height="1136" x="0" scrollPolicyH="off" scrollPolicyV="off">
+		<e:Group width="1140">
+			<e:Group width="640" height="1136" y="0" scaleX="1" scaleY="1" x="0" id="gameMainGroup" name="gameMainGroup">
+				<e:Image width="640" height="707" x="0" scaleX="1" scaleY="1" bottom="3" anchorOffsetY="0" source="bg3_png"/>
+				<e:Image top="0" left="0" width="640" source="bg_game_top_new_png" height="130"/>
+				<e:Group id="noticeGroup" width="638" height="30" x="1" y="101.34">
+					<e:Label id="noticeLabel" text="欢迎光临!!!" x="517" size="20" verticalCenter="0" textAlign="right" verticalAlign="middle" fontFamily="SimHei"/>
+				</e:Group>
+				<e:Image id="backImage" x="15" y="14.85" scaleX="1" scaleY="1" source="btn_back_png"/>
+				<e:Label id="titleLabel" text="PC蛋蛋-874210期" y="12" horizontalCenter="1" size="20" x="235" scaleX="1" scaleY="1" textColor="0xe5e0e0" fontFamily="Arial"/>
+				<e:ToggleButton id="soundButton" label="" x="600" y="15">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" name="soundImage" source="sound_on_png" source.down="sound_off_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+				<e:Image id="rewardResultImage" source="btn_kaijiangjilu_png" x="510" y="60"/>
+				<e:BitmapLabel id="timeLabel" width="180" height="40" x="218" y="92" text="180" anchorOffsetX="0" anchorOffsetY="0" font="time_number_fnt"/>
+				<e:Group width="640" height="110.67" x="0" scaleX="1" scaleY="1" bottom="0" anchorOffsetY="0">
+					<e:Image source="Input _png" x="4.74" verticalCenter="0" visible="false"/>
+					<e:Image source="Bet_png" x="401.52" verticalCenter="0" visible="false"/>
+					<e:Image source="Big_bets_png" x="506" verticalCenter="0" visible="false"/>
+					<e:TextInput x="18.61" y="18.39" anchorOffsetY="0" height="42.79" anchorOffsetX="0" width="329.64" visible="false"/>
+					<e:Image width="640" scale9Grid="4,0,4,108" source="dibu_BG_png" x="0.48" bottom="0"/>
+					<e:Group id="betGroup" width="638.33" height="187.3" x="1" y="24.36" anchorOffsetX="0" scaleY="0.42" anchorOffsetY="0" visible="false">
+						<e:Image source="Input _png" x="4.31" y="27.6" anchorOffsetX="0" width="327.61" scaleX="1" scaleY="2.380952380952381"/>
+						<e:Image id="betImage" x="330.84" y="9.28571428571422" scaleX="1" scaleY="2.380952380952381" source="queding_png"/>
+						<e:Image id="ResetImage" source="Big_bets_png" x="436.12" y="7.880952380952294" scaleX="1" scaleY="2.380952380952381"/>
+						<e:Image id="ToChatImage" x="540.77" y="11.54" scaleX="1" scaleY="2.380952380952381" source="Chat_png"/>
+						<e:TextInput id="GoldInput" width="311" height="55" x="10.66" y="38.78" maxChars="5" prompt="请输入下注金额" anchorOffsetY="0" scaleX="1" scaleY="2.380952380952381" anchorOffsetX="0"/>
+					</e:Group>
+					<e:Group id="ChatGroup" width="638.33" height="200" x="0.33" y="26.35" anchorOffsetX="0" scaleY="0.42" anchorOffsetY="0">
+						<e:Image source="Input _png" x="2.15" y="28.78571428571422" anchorOffsetX="0" scaleX="1" scaleY="2.380952380952381"/>
+						<e:Image id="ToBetImage" source="Bet_png" scaleX="1" scaleY="2.380952380952381" horizontalCenter="260.335" verticalCenter="0"/>
+						<e:Image id="sendImage" x="395.85" y="3.92" scaleX="1" scaleY="2.380952380952381" source="send_png"/>
+						<e:TextInput id="chatInput" width="349.75" height="55" x="10.63" y="39.73" maxChars="15" prompt="请输入下注命令（如大/100）" anchorOffsetY="0" scaleX="1" scaleY="2.380952380952381" anchorOffsetX="0"/>
+					</e:Group>
+				</e:Group>
+				<e:Group width="640" height="74.24" x="1.94" y="947.17" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Label id="stateNotifyLabel" text="123" scaleX="1" scaleY="0.97" horizontalCenter="-8" size="20" textColor="0x3F3D3D" bold="true" x="291.06" top="12"/>
+					<e:Label id="stateTicketLabel" text="123" scaleX="1" scaleY="0.97" horizontalCenter="-9.5" size="40" textColor="0xFFFF00" x="275.06000000000006" bottom="0" y="30.30079999999998"/>
+					<e:Image id="ruleImage" x="498.06" source="btn_help_png" scaleX="1" scaleY="1" bottom="1.2399999999999949" y="10.202400000000011"/>
+					<e:Image id="playerListImage" x="568.0600000000001" source="btn_wanjia_png" scaleX="1" scaleY="1" bottom="2.239999999999995" y="10.823199999999929"/>
+					<e:Label id="nameLabel" text="隔壁老王" x="21.560000000000002" y="6.86" size="25" scaleX="1" scaleY="0.9999999999999998"/>
+					<e:Image x="12.23" scaleX="1" scaleY="0.9999999999999998" source="bg_gold_png" width="180" height="40" bottom="-3.3600000000000136" y="31.620000000000005"/>
+					<e:Label id="balanceLabel" text="0" x="56.07" size="25" textColor="0xDFBB3E" scaleX="1" scaleY="0.9999999999999998" bottom="3.6399999999999864" textAlign="left" y="40.35000000000002"/>
+				</e:Group>
+				<e:Group id="codeGroup" width="640" height="300" x="0" y="130.6" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" top="-1" width="640" height="300" source="bg_slot_new_png"/>
+					<e:Image verticalCenter="0" horizontalCenter="0" source="bg_slot_num_png" width="500" height="160"/>
+					<e:Group id="codeGroup_1" width="80" height="130" x="94.66" y="83">
+						<e:Image width="80" height="130" source="diceng_png" x="0" y="0" scaleX="1" scaleY="1"/>
+						<e:Scroller id="codeScroller_1" width="60" height="80" x="11" y="30">
+							<e:Group>
+								<e:Image id="code_images_1" width="60" height="1400" y="-660" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="longhu_num_line_png"/>
+							</e:Group>
+						</e:Scroller>
+					</e:Group>
+					<e:Group id="codeGroup_2" width="80" height="130" y="83" horizontalCenter="-69">
+						<e:Image width="80" height="130" source="diceng_png" x="0" y="0" scaleX="1" scaleY="1"/>
+						<e:Scroller id="codeScroller_2" width="60" height="80" x="11" y="30" scaleX="1" scaleY="1">
+							<e:Group>
+								<e:Image id="code_images_2" width="60" height="1400" x="0" y="-660" scaleX="1" scaleY="1" source="longhu_num_line_png"/>
+							</e:Group>
+						</e:Scroller>
+					</e:Group>
+					<e:Group id="codeGroup_3" width="80" height="130" x="346.65" y="83">
+						<e:Image width="80" height="130" source="diceng_png" x="0" y="0" scaleX="1" scaleY="1"/>
+						<e:Scroller id="codeScroller_3" width="60" height="80" x="11" y="30" scaleX="1" scaleY="1">
+						<e:Group>
+							<e:Image id="code_images_3" width="60" height="1400" x="0" y="-660" scaleX="1" scaleY="1" source="longhu_num_line_png"/>
+						</e:Group>
+						</e:Scroller>
+					</e:Group>
+					<e:Group width="80" height="130" x="463.31" y="83">
+						<e:Image width="80" height="130" source="diceng_png" x="0" y="0" scaleX="1" scaleY="1"/>
+						<e:Image id="TotalNumberImage" scaleX="1" scaleY="1" source="02_png" horizontalCenter="0" verticalCenter="0"/>
+						<e:Scroller id="codeScroller_4" width="60" height="80" x="11" y="30" scaleX="1" scaleY="1" visible="false">
+						<e:Group>
+							<e:Image id="code_images_4" width="60" height="1400" x="0" y="-660" scaleX="1" scaleY="1" source="longhu_num_line_png"/>
+						</e:Group>
+						</e:Scroller>
+					</e:Group>
+					<e:Scroller id="raceBgScroller" width="500" height="160" x="70" y="70" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Group>
+						</e:Group>
+					</e:Scroller>
+					<e:Group anchorOffsetY="0" height="60" y="5" anchorOffsetX="0" width="319" horizontalCenter="0.5">
+						<e:Label id="titleLabel_1" text="874210期" y="19" size="25" scaleX="1" scaleY="1" left="0"/>
+						<e:Image id="code_image" scaleX="1" scaleY="1" left="128" verticalCenter="0" source="1_1_4_png"/>
+						<e:Image id="dxImage" source="ic_d_png" x="188" scaleX="1" scaleY="1" verticalCenter="0"/>
+						<e:Image id="dsImage" source="ic_s_png" x="252" scaleX="1" scaleY="1" verticalCenter="0"/>
+					</e:Group>
+					<e:Group anchorOffsetY="0" height="25" y="255" anchorOffsetX="0" width="475" horizontalCenter="0">
+						<e:Label id="titleLabel_2" text="874210期" size="25" scaleX="1" scaleY="1" bottom="0" left="0"/>
+						<e:Label text="封盘：" size="25" left="135" x="165" scaleX="1" scaleY="1" bottom="0"/>
+						<e:Label text="开奖：" size="25" left="317" x="347" scaleX="1" scaleY="1" bottom="0"/>
+						<e:Label text="04：30" size="25" left="210" textColor="0xff9005" x="240" scaleX="1" scaleY="1" bottom="0"/>
+						<e:Label text="05：00" size="25" textColor="0xFF9005" scaleX="1" scaleY="1" bottom="0" right="0"/>
+					</e:Group>
+					<e:Label text="+" x="180" size="38" textColor="0xd38e0a" verticalCenter="0"/>
+					<e:Label text="+" x="310" size="38" textColor="0xd38e0a" verticalCenter="0"/>
+					<e:Label text="=" x="435" size="38" textColor="0xD38E0A" verticalCenter="0"/>
+				</e:Group>
+				<e:Group id="groupCenter" width="640" height="612.64" x="0" y="427.33" scaleX="1" scaleY="0.97" anchorOffsetY="0" visible="false">
+					<e:Image source="xian_2_png" x="158.35" y="-13.13" anchorOffsetX="2.67" anchorOffsetY="-5.5" height="550"/>
+					<e:Image source="xian _png" x="-2.97" y="537.94"/>
+					<e:Group width="146.97" height="529.59" x="7.4" y="10.7" anchorOffsetX="0" anchorOffsetY="0">
+						<e:ToggleButton id="Calss_1" label="" x="1.93" y="14.08" enabled="true" scaleX="1" scaleY="1">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_s_png" source.down="Mixture_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="Calss_2" label="" x="2.5999999999999996" y="89.29999999999995" enabled="true" scaleX="1" scaleY="1">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_n_png" source.down="Tema_s_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+					</e:Group>
+					<e:Group id="MixtureGroup" width="480" height="540" x="160" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+						<e:ToggleButton id="OptionsBtn_1" label="大" y="10" scaleX="1" scaleY="1" left="15">
+							<e:skinName>
+								<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_s_png" source.down="Mixture_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+								</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_2" label="单" y="80" scaleX="1" scaleY="1" x="15">
+							<e:skinName>
+								<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_s_png" source.down="Mixture_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+								</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_3" label="小" scaleX="1" scaleY="1" y="10" x="245">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_s_png" source.down="Mixture_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_4" label="双" scaleX="1" scaleY="1" y="80" x="245">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_s_png" source.down="Mixture_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_5" label="极大" y="284.02" scaleX="1" scaleY="1" x="15">
+							<e:skinName>
+								<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_1_png" source.down="Mixture_Bg_2_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+								</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_6" label="极小" y="284.02" scaleX="1" scaleY="1" x="165">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_1_png" source.down="Mixture_Bg_2_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_7" label="豹子" y="284.02" scaleX="1" scaleY="1" x="320">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_1_png" source.down="Mixture_Bg_2_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_8" label="红波" y="354.02" scaleX="1" scaleY="1" x="15">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_1_png" source.down="Mixture_Bg_2_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_9" label="绿波" y="354.02" scaleX="1" scaleY="1" x="165">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_1_png" source.down="Mixture_Bg_2_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_10" label="蓝波" y="356.18" scaleX="1" scaleY="1" x="320">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_1_png" source.down="Mixture_Bg_2_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_11" label="大" y="144.03" scaleX="1" scaleY="1" left="15">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_s_png" source.down="Mixture_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_12" label="单" y="213.72" scaleX="1" scaleY="1" x="15">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_s_png" source.down="Mixture_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_13" label="小" scaleX="1" scaleY="1" y="143.72" x="245">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_s_png" source.down="Mixture_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="OptionsBtn_14" label="双" scaleX="1" scaleY="1" y="213.72" x="245">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Mixture_Bg_s_png" source.down="Mixture_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:Label id="MixtureLabel_1" text="313.00" x="176" y="55.06" textColor="0x070707" size="16" bold="true"/>
+						<e:Label text="313.00" x="405.34" y="57.17" textColor="0x070707" size="16" bold="true" id="MixtureLabel_2"/>
+						<e:Label text="313.00" x="179.67" y="125.6" textColor="0x070707" size="16" bold="true" id="MixtureLabel_3"/>
+						<e:Label text="313.00" x="409" y="126.67" textColor="0x070707" size="16" bold="true" id="MixtureLabel_4"/>
+						<e:Label text="313.00" x="105.34" y="329.98" textColor="0x070707" size="16" bold="true" id="MixtureLabel_5"/>
+						<e:Label text="313.00" x="257" y="330.2" textColor="0x070707" size="16" bold="true" id="MixtureLabel_6"/>
+						<e:Label text="313.00" x="410" y="330.9" textColor="0x070707" size="16" bold="true" id="MixtureLabel_7" anchorOffsetY="0" height="13.94"/>
+						<e:Label text="313.00" x="105.36" y="399.67" textColor="0x070707" size="16" bold="true" id="MixtureLabel_8"/>
+						<e:Label text="313.00" x="256.33" y="400.9" textColor="0x070707" size="16" bold="true" id="MixtureLabel_9"/>
+						<e:Label id="MixtureLabel_10" text="313.00" x="412" y="399.76" textColor="0x070707" size="16" bold="true"/>
+						<e:Label id="MixtureLabel_11" text="313.00" x="176" y="188.78" textColor="0x070707" size="16" bold="true"/>
+						<e:Label id="MixtureLabel_12" text="313.00" x="405.34" y="190.89" textColor="0x070707" size="16" bold="true"/>
+						<e:Label id="MixtureLabel_13" text="313.00" x="179.67" y="259.32" textColor="0x070707" size="16" bold="true"/>
+						<e:Label id="MixtureLabel_14" text="313.00" x="409" y="260.39" textColor="0x070707" size="16" bold="true"/>
+						<e:Label text="大" x="114" y="30.88" textColor="0x0f0e0e" visible="false"/>
+						<e:Label id="MixtureLabel_1_1" text="大" x="116" y="29" textColor="0x070707" visible="false"/>
+					</e:Group>
+					<e:Group id="TeMaGaroup" width="480" height="540" x="160" y="0" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+						<e:ToggleButton id="TeMaBtn_0" label="0" y="23.75" scaleX="1" scaleY="1" x="15.34">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_1" label="1" y="23.75" scaleX="1" scaleY="1" x="125.34">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_2" label="2" y="23.75" scaleX="1" scaleY="1" x="235.34">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_3" label="3" y="23.75" scaleX="1" scaleY="1" x="345.34">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_4" label="4" y="88.75" scaleX="1" scaleY="1" x="16.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_5" label="5" y="88.75" scaleX="1" scaleY="1" x="126.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_6" label="6" y="88.75" scaleX="1" scaleY="1" x="236.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_7" label="7" y="88.75" scaleX="1" scaleY="1" x="346.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_8" label="8" y="153.75" scaleX="1" scaleY="1" x="15.34">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_9" label="9" y="153.75" scaleX="1" scaleY="1" x="125.34">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_10" label="10" y="153.75" scaleX="1" scaleY="1" x="235.35">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_11" label="11" y="153.75" scaleX="1" scaleY="1" x="345.34">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_12" label="12" y="218.75" scaleX="1" scaleY="1" x="16.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_13" label="13" y="218.75" scaleX="1" scaleY="1" x="126.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_14" label="14" y="218.75" scaleX="1" scaleY="1" x="236.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_15" label="15" y="218.75" scaleX="1" scaleY="1" x="346.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_16" label="16" y="283.75" scaleX="1" scaleY="1" x="16.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_17" label="17" y="283.75" scaleX="1" scaleY="1" x="126.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_18" label="18" y="283.75" scaleX="1" scaleY="1" x="236.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_19" label="19" y="283.75" scaleX="1" scaleY="1" x="346.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_20" label="20" y="348.75" scaleX="1" scaleY="1" x="16.68">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_21" label="21" y="348.75" scaleX="1" scaleY="1" x="126.68">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_22" label="22" y="348.75" scaleX="1" scaleY="1" x="236.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_23" label="23" y="348.75" scaleX="1" scaleY="1" x="346.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_24" label="24" y="413.75" scaleX="1" scaleY="1" x="16.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_25" label="25" y="413.75" scaleX="1" scaleY="1" x="126.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_26" label="26" y="413.75" scaleX="1" scaleY="1" x="236.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:ToggleButton id="TeMaBtn_27" label="27" y="413.75" scaleX="1" scaleY="1" x="346.67">
+							<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="Tema_Bg_s_png" source.down="Tema_Bg_n_png"/>
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+							</e:skinName>
+						</e:ToggleButton>
+						<e:Label text="111.00" x="74.65" y="69.14" textColor="0x070707" size="16" bold="true" id="RatioLabel_0"/>
+						<e:Label id="RatioLabel_1" text="941.00" x="186.66" y="68.45" textColor="0x070707" size="16" bold="true"/>
+						<e:Label text="156.00" x="292.68" y="69.82" textColor="0x070707" size="16" bold="true" id="RatioLabel_2"/>
+						<e:Label text="64.00" x="411.33" y="70.51" textColor="0x070707" size="16" bold="true" id="RatioLabel_3"/>
+						<e:Label text="62.00" x="83.33" y="134.14" textColor="0x070707" size="16" bold="true" id="RatioLabel_4"/>
+						<e:Label text="44.00" x="191.99" y="134.14" textColor="0x070707" size="16" bold="true" id="RatioLabel_5"/>
+						<e:Label text="33.00" x="301.33" y="132.07" textColor="0x070707" size="16" bold="true" id="RatioLabel_6"/>
+						<e:Label text="26.00" x="412.65" y="133.45" textColor="0x070707" size="16" bold="true" id="RatioLabel_7"/>
+						<e:Label text="20.90" x="77.33" y="197.75" textColor="0x070707" size="16" bold="true" id="RatioLabel_8"/>
+						<e:Label text="17.10" x="186.66" y="198.43" textColor="0x070707" size="16" bold="true" id="RatioLabel_9"/>
+						<e:Label text="14.90" x="298.67" y="199.81" textColor="0x070707" size="16" bold="true" id="RatioLabel_10"/>
+						<e:Label text="13.50" x="413.31" y="199.83" textColor="0x070707" size="16" bold="true" id="RatioLabel_11"/>
+						<e:Label text="12.80" x="80.67" y="262.06" textColor="0x070707" size="16" bold="true" id="RatioLabel_12"/>
+						<e:Label text="12.50" x="189.32" y="264.82" textColor="0x070707" size="16" bold="true" id="RatioLabel_13"/>
+						<e:Label text="12.50" x="303.33" y="262.76" textColor="0x070707" size="16" bold="true" id="RatioLabel_14"/>
+						<e:Label text="12.80" x="414.98" y="263.44" textColor="0x070707" size="16" bold="true" id="RatioLabel_15"/>
+						<e:Label text="13.50" x="82.67" y="329.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_16"/>
+						<e:Label text="14.90" x="187.33" y="328.44" textColor="0x070707" size="16" bold="true" id="RatioLabel_17"/>
+						<e:Label text="17.10" x="302.66" y="329.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_18"/>
+						<e:Label text="20.90" x="413.32" y="329.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_19"/>
+						<e:Label text="26.00" x="82.67" y="394.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_20"/>
+						<e:Label text="33.00" x="190.01" y="394.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_21"/>
+						<e:Label text="44.00" x="302" y="393.44" textColor="0x070707" size="16" bold="true" id="RatioLabel_22"/>
+						<e:Label text="62.00" x="413.33" y="394.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_23"/>
+						<e:Label text="94.00" x="83.33" y="459.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_24"/>
+						<e:Label text="156.00" x="186" y="459.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_25"/>
+						<e:Label text="313.00" x="296.01" y="459.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_26"/>
+						<e:Label text="940.00" x="405.68" y="459.13" textColor="0x070707" size="16" bold="true" id="RatioLabel_27"/>
+					</e:Group>
+				</e:Group>
+				<e:Scroller id="chatScroller" width="640" height="513.58" x="1.65" y="432.37" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Group id="chatGroup" anchorOffsetY="0" height="592.25">
+						<e:Group id="MsgGroup0" width="640" height="85" anchorOffsetX="0" anchorOffsetY="0" top="0" name="MsgGroup" y="-432.37" scaleX="1" scaleY="1" visible="false">
+							<e:Image id="MsgImage1" anchorOffsetX="0" anchorOffsetY="0" name="MsgImage" source="qipao_png" y="17" x="570" scale9Grid="2,18,42,43"/>
+							<e:Label id="UsereName1" text="[玛丽]" x="578" size="16" name="UsereName" top="0" textColor="0xF70404"/>
+							<e:Label id="MsgLabel1" text="大大大" x="576" y="43" size="18" name="MsgLabel" anchorOffsetY="0" anchorOffsetX="0" fontFamily="Microsoft YaHei" multiline="true" background="false" backgroundColor="0x0C0C0C" lineSpacing="10" textColor="0x0C0C0C" maxChars="30"/>
+							<e:Label text="123123123123123" x="356" y="77" visible="false"/>
+						</e:Group>
+					</e:Group>
+				</e:Scroller>
+				<e:Group width="300" height="60" y="40" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-9">
+				<e:Image id="code_image_1" left="0" bottom="0" source="1_1_0_png"/>
+				<e:Image id="code_image_2" x="67.25" bottom="0" source="1_1_1_png"/>
+				<e:Image id="code_image_3" x="133.33" bottom="0" source="1_1_3_png"/>
+				<e:Image id="code_image_4" bottom="0" right="0" source="1_1_4_png"/>
+					<e:Label text="=" x="203.99" size="38" textColor="0xD38E0A" scaleX="1" scaleY="1" verticalCenter="0"/>
+				</e:Group>
+			</e:Group>
+			<e:Group width="500" height="1136" x="640" y="0" scaleX="1" scaleY="1">
+				<e:Image source="userlistimg_new_png" width="500" height="1136" top="0" scale9Grid="15,16,95,96"/>
+				<e:Label text="账号信息" x="18" y="10" size="18" visible="false"/>
+				<e:Group width="473" height="176" x="16" y="48" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Label text="ID:" x="9" textColor="0xA48846" size="16" y="2" scaleX="1" scaleY="1" top="18" visible="false"/>
+				<e:Label text="账号" x="10" textColor="0xA48846" size="28" top="15" y="12" scaleX="1" scaleY="1"/>
+				<e:Label id="UserId" text="654215" size="16" scaleX="1" scaleY="1" top="18" textColor="0xA48846" anchorOffsetX="0" right="21" textAlign="right" visible="false"/>
+				<e:Label text="昵称" x="10" textColor="0xA48846" size="28" y="73.31" scaleX="1" scaleY="1"/>
+				<e:Label text="金额" x="10" textColor="0xA48846" size="28" top="138" y="32" scaleX="1" scaleY="1"/>
+					<e:Image source="bg_info_png" x="69" height="45" anchorOffsetX="0" width="350.73" top="0"/>
+					<e:Image source="bg_info_png" x="69.88" y="127.95" width="344.67" height="45" anchorOffsetX="0"/>
+					<e:Image source="bg_info_png" x="69" y="61.91" width="344.67" height="45" anchorOffsetX="0"/>
+					<e:Label id="GoldNum" text="9999999" size="30" scaleX="1" scaleY="1" textColor="0xA48846" anchorOffsetX="0" textAlign="left" top="135" x="85"/>
+					<e:Label id="FreezingGoldNum" text="(冻结：0.00)" size="22" scaleX="1" scaleY="1" anchorOffsetX="0" textAlign="left" left="236" top="141" fontFamily="SimHei" textColor="0xA48846"/>
+					<e:Label id="TehUser" text="17508123433423" size="30" scaleX="1" scaleY="1" textColor="0xA48846" textAlign="left" top="10" x="85"/>
+					<e:Label id="UserName" text="隔壁王小二" size="30" scaleX="1" scaleY="1" textColor="0xA48846" anchorOffsetX="0" textAlign="left" top="71" x="85"/>
+				</e:Group>
+				<e:Image source="bg_wode_png" x="14.4" y="230.08" anchorOffsetX="0" width="471.78"/>
+				<e:Label text="投注明细(每日更新)" x="82" y="258.08" size="28" textColor="0xffffff"/>
+				<e:Button id="touzhuDetailsImage" label="" x="345.32" y="243" anchorOffsetX="0" width="126" anchorOffsetY="0" height="52">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="btn_detail_png" source.down="btn_detail_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Scroller width="460" height="460" x="22" y="320" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+				<e:Group id="betLogGroup" anchorOffsetX="0" width="460" anchorOffsetY="0" height="500">
+					<e:Group id="betLogDemoCellGroup" width="460" height="50" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Label id="NoerList" text="6255412期" x="14" textColor="0xE1C6F5" size="26" verticalCenter="0"/>
+					<e:Label id="NoerGold" text="100" x="298" textColor="0xE1C6F5" size="26" textAlign="right" verticalCenter="1"/>
+					</e:Group>
+				</e:Group>
+				</e:Scroller>
+				<e:Label id="todayResultLabel" text="当日盈亏：0筹码" y="849.66" size="28" textColor="0xffffff" horizontalCenter="0.5"/>
+				<e:Label id="todayLonghuResultLabel" text="今日龙虎下注额：15000筹码" y="891.66" size="28" textColor="0xFFFFFF" horizontalCenter="0.5"/>
+				<e:Button id="serviceButton" label="" y="950" width="420" height="60" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="chongzhi_input_png" source.down="chongzhi_input_png"/>
+						<e:Label text="联系客服" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="exitButton" label="" y="1030" width="420" height="60" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="chongzhi_input_png" source.down="chongzhi_input_png"/>
+						<e:Label text="退出登陆" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Group id="pages" y="780" height="40" width="460" x="22" scaleX="1" scaleY="1">
+					<e:Label id="lastPageLabel" text="上一页" x="92" y="7" fontFamily="SimHei" scaleX="1" scaleY="1" size="25"/>
+					<e:Label id="nextPageLabel" text="下一页" x="267" y="7" fontFamily="SimHei" scaleX="1" scaleY="1" size="25" verticalAlign="middle"/>
+					<e:Label id="currentPageLabel" text="1" x="171" y="7" anchorOffsetX="0" anchorOffsetY="0" size="25" fontFamily="SimHei" textAlign="center" width="38"/>
+					<e:Label text="/" x="209" y="7" anchorOffsetX="0" anchorOffsetY="0" size="25" fontFamily="SimHei"/>
+					<e:Label id="totalPageLabel" text="1" x="226" y="7" anchorOffsetX="0" anchorOffsetY="0" size="25" fontFamily="SimHei" width="38" textAlign="center"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

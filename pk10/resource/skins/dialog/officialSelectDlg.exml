@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="officialSelect" width="540" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="540" height="100" left="0" top="0" name="officialSelectGroup">
+		<e:Image anchorOffsetY="0" left="1" top="0" height="100" width="540" x="1" y="0" scaleX="1" scaleY="1" source="bglist_tankuang_new_png"/>
+		<e:Label id="NoerLabel" text="201712140053期" x="33" size="25" top="10" y="10" scaleX="1" scaleY="1" name="NoerLabel"/>
+		<e:Label id="TimeLabel" text="2017-12-11 10:27:00" x="283" size="25" top="10" y="10" scaleX="1" scaleY="1" name="TimeLabel"/>
+	</e:Group>
+</e:Skin>

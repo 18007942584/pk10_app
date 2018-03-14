@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateHongbao" width="330" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="honGroup" width="330" height="170" left="0" top="0" name="honGroup">
+		<e:Image id="HongbaoImage" bottom="0" source="hongbao2_png" y="49" scaleX="1" scaleY="1" name="HongbaoImage" right="0"/>
+		<e:Label id="NameLabel" text="游客游客" textColor="0x666666" fontFamily="Microsoft YaHei" size="28" scaleX="1" scaleY="1" name="NameLabel" y="9" horizontalCenter="107"/>
+		<e:Label id="DataLabel" text="500筹码" x="78" y="79" verticalAlign="justify" anchorOffsetX="0" size="25" scaleX="1" scaleY="1" name="DataLabel"/>
+		<e:Label id="DataLabel0" text="10包/剩10包" y="79" anchorOffsetX="0" size="25" scaleX="1" scaleY="1" name="DataLabel0" right="10"/>
+		<e:Label id="DataLabel1" text="  游戏红包" x="73" y="109" verticalAlign="justify" anchorOffsetX="0" size="25" scaleX="1" scaleY="1" name="DataLabel1"/>
+	</e:Group>
+</e:Skin>

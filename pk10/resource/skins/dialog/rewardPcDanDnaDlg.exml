@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rewardPcDanDnaDlg" width="540" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="RewardSelecGaoup" width="540" height="100" left="0" top="0" name="RewardSelecGaoup">
+		<e:Image anchorOffsetY="0" left="0" top="0" height="100" width="540" anchorOffsetX="0" x="0" y="0" scaleX="1" scaleY="1" source="bglist_tankuang_new_png"/>
+		<e:Label text="=" x="233.99" size="38" textColor="0xD38E0A" scaleX="1" scaleY="1" verticalCenter="16"/>
+		<e:Label id="NoerLabel" text="6554917期" x="63" size="22" top="13" textColor="0x73cde1" y="15" scaleX="1" scaleY="1" name="NoerLabel"/>
+		<e:Label id="TimeLabel" text="2017-12-11 10:27:00" x="320" size="22" top="12" textColor="0x73cdff" y="13" scaleX="1" scaleY="1" name="TimeLabel"/>
+		<e:Label id="Ranking__1" text="1" x="41" size="30" top="46" textColor="0xF7F8FC" textAlign="center" y="40" scaleX="1" scaleY="1" name="Ranking_Label_1" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Label id="Ranking_Label_2" text="2" x="151" size="30" top="36" textColor="0xF7F8FC" textAlign="center" y="40" scaleX="1" scaleY="1" name="Ranking_Label_2" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Label id="Ranking_Label_3" text="3" x="261" size="30" top="36" textColor="0xF7F8FC" textAlign="center" y="40" scaleX="1" scaleY="1" name="Ranking_Label_3" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Label id="Ranking_Label_4" text="4" x="371" size="30" top="36" textColor="0xF7F8FC" textAlign="center" y="40" scaleX="1" scaleY="1" name="Ranking_Label_4" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Label id="Ranking_Label_5" text="5" x="477" size="30" top="36" textColor="0xF7F8FC" textAlign="center" y="40" scaleX="1" scaleY="1" name="Ranking_Label_5" fontFamily="Microsoft YaHei" visible="false"/>
+		<e:Image id="Ranking_Image_1" x="20" scaleX="1" scaleY="1" name="Ranking_Image_1" bottom="4" width="48" height="28" source="rank_1_png" visible="false"/>
+		<e:Image id="Ranking_Image_2" x="130" scaleX="1" scaleY="1" name="Ranking_Image_2" bottom="3" width="48" height="28" source="rank_2_png" visible="false"/>
+		<e:Image id="Ranking_Image_3" scaleX="1" scaleY="1" name="Ranking_Image_3" bottom="3" x="240" width="48" height="28" source="rank_3_png" visible="false"/>
+		<e:Image id="Ranking_Image_4" x="350" scaleX="1" scaleY="1" name="Ranking_Image_4" bottom="3" width="48" height="28" source="rank_4_png" visible="false"/>
+		<e:Image id="Ranking_Image_5" x="460" scaleX="1" scaleY="1" name="Ranking_Image_5" bottom="3" width="48" height="28" source="rank_5_png" visible="false"/>
+		<e:Image id="code_1" source="1_1_0_png" x="22" verticalCenter="16.5" name="code_1"/>
+		<e:Image id="code_2" source="1_1_1_png" x="92" verticalCenter="16.5" name="code_2"/>
+		<e:Image id="code_3" source="1_1_10_png" x="159" verticalCenter="16.5" name="code_3"/>
+		<e:Image id="code_4" source="1_1_11_png" x="274" verticalCenter="16.5" name="code_4"/>
+		<e:Image id="code_5" source="ic_x_png" x="391" verticalCenter="15.5" name="code_5"/>
+		<e:Image id="code_6" source="ic_d1_png" x="449" verticalCenter="15.5" name="code_6"/>
+	</e:Group>
+</e:Skin>

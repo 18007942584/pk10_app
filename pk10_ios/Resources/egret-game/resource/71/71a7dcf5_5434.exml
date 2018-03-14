@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetPaijiuInfoCell" width="462" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="250">
+	<w:Config id="160cad3a0eb"/>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" name="betCellGroup" right="0" bottom="0">
+		<e:Image id="detailCellBgImage" left="0" right="0" top="-1" bottom="1" source="userlistimg_new_png" x="0" y="0" scaleX="1" scaleY="1" width="462" name="detailCellBgImage" scale9Grid="15,16,95,96"/>
+		<e:Group id="detailsHeadGroup" width="460" height="76" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" name="detailsHeadGroup">
+			<e:Image id="detailsShowImage" width="20" height="20" x="10" y="14" source="details_open_png" name="detailsShowImage"/>
+			<e:Label id="timeLabel" text="2018-01-06 14:02:34" x="40" y="14" size="20" fontFamily="SimHei" name="timeLabel"/>
+			<e:Label text="本局收益：" x="242" y="14" size="20" fontFamily="SimHei"/>
+			<e:Label id="resultValueLabel" name="resultValueLabel" text="+100000" size="22" textAlign="right" x="341" y="15" scaleX="1" scaleY="1" textColor="0x3adb0f"/>
+			<e:Label id="gameDetailLabel" text="[北京赛车-654555期-牌九]" x="40" y="43" size="22" fontFamily="SimHei" name="gameDetailLabel"/>
+		</e:Group>
+		<e:Group id="detailsMainGroup" width="460" height="168" y="78" anchorOffsetX="0" anchorOffsetY="0" name="detailsMainGroup" horizontalCenter="0">
+			<e:Label text="第一门" x="10" y="18" size="22" fontFamily="SimHei" textColor="0xe7d648" anchorOffsetY="0" height="23" textAlign="center"/>
+			<e:Label text="第二门" x="101" y="18" size="22" fontFamily="SimHei" textColor="0xE7D648" textAlign="center"/>
+			<e:Label text="第三门" x="195" y="18" size="22" fontFamily="SimHei" textColor="0xE7D648" textAlign="center"/>
+			<e:Label text="第四门" x="289" y="18" size="22" fontFamily="SimHei" textColor="0xE7D648" textAlign="center"/>
+			<e:Label text="第五门" x="382" y="18" size="22" fontFamily="SimHei" textColor="0xE7D648" textAlign="center"/>
+			<e:Label id="men_1_label" text="7 1" x="10" y="51" size="20" fontFamily="SimHei" name="men_1_label" width="66" textAlign="center"/>
+			<e:Label id="men_2_label" text="2 10" x="101" y="50" size="20" fontFamily="SimHei" name="men_2_label" width="66" textAlign="center"/>
+			<e:Label id="men_3_label" text="3 4" x="195" y="51" size="20" fontFamily="SimHei" name="men_3_label" width="66" textAlign="center"/>
+			<e:Label id="men_4_label" text="9 6" x="289" y="51" size="20" fontFamily="SimHei" name="men_4_label" width="66" textAlign="center"/>
+			<e:Label id="men_5_label" text="5 8" x="382" y="50" size="20" fontFamily="SimHei" name="men_5_label" width="66" textAlign="center"/>
+			<e:Image id="Men1Image" width="66" height="40" x="10" y="69" source="details_1th_png" name="Men1Image"/>
+			<e:Image id="Men2Image" width="66" height="40" x="101" y="69" source="details_2th_png" name="Men2Image"/>
+			<e:Image id="Men3Image" width="66" height="40" x="195" y="69" source="details_3th_png" name="Men3Image"/>
+			<e:Image id="Men4Image" width="66" height="40" x="289" y="69" source="details_4th_png" name="Men4Image"/>
+			<e:Image id="Men5Image" width="66" height="40" x="382" y="69" source="details_5th_png" name="Men5Image"/>
+			<e:Label id="area_1_totalbet_label" text="0" y="120" size="20" x="10" width="66" textColor="0x10c46d" name="area_1_totalbet_label" textAlign="center"/>
+			<e:Label id="area_2_totalbet_label" text="7090" y="120" size="20" x="101" width="66" textColor="0x10c46d" name="area_2_totalbet_label" textAlign="center"/>
+			<e:Label id="area_3_totalbet_label" text="5800" y="120" size="20" x="195" width="66" textColor="0x10c46d" name="area_3_totalbet_label" textAlign="center"/>
+			<e:Label id="area_4_totalbet_label" text="9000" y="120" size="20" x="289" width="66" textColor="0x10c46d" name="area_4_totalbet_label" textAlign="center"/>
+			<e:Label id="area_5_totalbet_label" text="6450" y="120" size="20" x="382" width="66" textColor="0x10c46d" name="area_5_totalbet_label" textAlign="center"/>
+			<e:Label id="area_1_bet_label" text="0" y="142" size="20" x="10" width="66" name="area_1_bet_label" textAlign="center"/>
+			<e:Label id="area_2_bet_label" text="0" y="142" size="20" x="101" width="66" name="area_2_bet_label" textAlign="center"/>
+			<e:Label id="area_3_bet_label" text="0" y="142" size="20" x="195" width="66" name="area_3_bet_label" textAlign="center"/>
+			<e:Label id="area_4_bet_label" text="1300" y="142" size="20" x="289" width="66" name="area_4_bet_label" textAlign="center"/>
+			<e:Label id="area_5_bet_label" text="500" y="142" size="20" x="382" width="66" name="area_5_bet_label" textAlign="center"/>
+			<e:Image id="Men1ZhuangImage" width="30" height="30" x="47" y="101" source="details_zhuang_png" name="Men1ZhuangImage"/>
+			<e:Image id="Men2ZhuangImage" width="30" height="30" x="138" y="101" source="details_zhuang_png" name="Men2ZhuangImage"/>
+			<e:Image id="Men3ZhuangImage" width="30" height="30" x="232" y="101" source="details_zhuang_png" name="Men3ZhuangImage"/>
+			<e:Image id="Men4ZhuangImage" width="30" height="30" x="325" y="101" source="details_zhuang_png" name="Men4ZhuangImage"/>
+			<e:Image id="Men5ZhuangImage" width="30" height="30" x="416" y="101" source="details_zhuang_png" name="Men5ZhuangImage"/>
+		</e:Group>
+		<e:Image width="460" height="2" y="248" anchorOffsetX="0" anchorOffsetY="0" source="details_line_ong"/>
+	</e:Group>
+</e:Skin>

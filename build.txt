@@ -1,0 +1,9 @@
+
+egret build pk10 --runtime native -e
+egret build pk10 -e
+
+发布native
+egret publish pk10 --runtime native -e
+
+发布web
+egret publish pk10 -e

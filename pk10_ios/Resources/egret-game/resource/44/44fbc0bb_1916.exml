@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoomListCell" width="580" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="580" height="260" x="1" anchorOffsetX="0" anchorOffsetY="0" name="bgImage" source="btn_ouzhousaiche_new_png" bottom="0"/>
+	<e:Label name="next_open_title_label" id="next_open_title_label" text="距离下次开奖剩余" x="280" textColor="0xE8E8E8" size="25" textAlign="center" fontFamily="SimHei" width="280" y="110"/>
+	<e:Label name="pause_title_label" id="pause_title_label" text="游戏暂停" x="280" textColor="0xE8E8E8" size="22" textAlign="center" fontFamily="SimHei" y="130" width="280"/>
+	<e:Label name="pause_time_label" id="pause_time_label" text="开奖时间09:02-23:57" x="280" textColor="0xE8E8E8" size="22" textAlign="center" fontFamily="SimHei" y="190" width="280"/>
+	<e:Label id="nameLabel" name="nameLabel" text="最新开奖 664478期" x="280" verticalCenter="-86.5" size="25" textAlign="center" anchorOffsetX="0" width="280" anchorOffsetY="0" height="27" fontFamily="SimHei" textColor="0xffffff"/>
+	<e:Label name="timeLabel" id="timeLabel" text="查询中" x="415" y="112" textColor="0x3fb6d4" textAlign="center" visible="false"/>
+	<e:Group id="timeGroup" width="220" height="60" x="310" y="154" anchorOffsetX="0" anchorOffsetY="0" name="timeGroup">
+		<e:Image id="time_1" name="time_1" width="45" height="60" y="0" scaleX="1" scaleY="1" x="5" anchorOffsetX="0" anchorOffsetY="0" source="blue_0_png"/>
+		<e:Image id="time_2" name="time_2" width="45" height="60" y="1" scaleX="1" scaleY="1" x="60" anchorOffsetY="0" anchorOffsetX="0" source="blue_2_png"/>
+		<e:Image id="time_3" name="time_3" width="45" height="60" y="1" scaleX="1" scaleY="1" x="120" source="blue_3_png"/>
+		<e:Image id="time_4" name="time_4" width="45" height="60" y="1" scaleX="1" scaleY="1" x="170" source="blue_4_png"/>
+	</e:Group>
+	
+</e:Skin>

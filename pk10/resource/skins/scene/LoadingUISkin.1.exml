@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingUISkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="loadingBgImag" width="640" height="1136" x="0" y="0" alpha="1" source="reg_bg_new_png"/>
+	<e:Group id="loadingGroup" width="500" height="20" x="70" y="540">
+		<e:Image id="stripBgImage" width="500" height="20" x="1" y="1" source="strip_bg_png"/>
+		<e:Image id="progressImage" width="0" height="20" x="1" y="1" source="strip_length_png"/>
+		<e:Label id="loadingLabel" text="正在加载资源..." y="-50" scaleX="1" scaleY="1" horizontalCenter="0" fontFamily="SimHei"/>
+	</e:Group>
+</e:Skin>

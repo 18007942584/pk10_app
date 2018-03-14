@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CarConcludeDialogSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backgroundImage" width="640" height="1136" x="0" y="0" alpha="0.3" scale9Grid="2,3,48,47" source="bg_mask_new_png"/>
+	<e:Group width="580" height="300" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Image width="580" height="300" x="0" y="0" scaleX="1" scaleY="1" source="bg_popup_new_png" scale9Grid="26,25,77,15"/>
+		<e:Label id="noticeLabel" text="提示文字" size="25" scaleX="1" scaleY="1" anchorOffsetX="0" width="500" anchorOffsetY="0" height="114" textAlign="center" top="82" horizontalCenter="0" textColor="0xc6bbb1"/>
+		<e:Button id="confirmButton" label="确定" x="80" y="213" anchorOffsetX="0" width="180" anchorOffsetY="0" height="70" skinName="skins.ButtonSkin">
+		</e:Button>
+		<e:Button id="cancelButton" label="取消" x="324" y="213" width="180" height="70" skinName="skins.ButtonSkin">
+		</e:Button>
+	</e:Group>
+</e:Skin>

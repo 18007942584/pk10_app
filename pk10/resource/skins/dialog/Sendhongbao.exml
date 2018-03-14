@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFile" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="Sendhongbao" width="640" height="1136" anchorOffsetX="0" anchorOffsetY="0" left="0" bottom="0">
+		<e:Image width="640" height="1136" x="0" y="0" alpha="0.3" scale9Grid="2,3,48,47" source="bg_mask_new_png"/>
+		<e:Image source="bg2_png" scaleX="1" scaleY="1" left="3" width="640" height="750" bottom="0"/>
+		<e:Image id="CloseBtn" source="Close_png" top="395" right="0" name="CloseBtn"/>
+		<e:Label text="选择雷位" top="403" size="40" textColor="0x050404" fontFamily="Microsoft YaHei" horizontalCenter="0"/>
+		<e:Label text="选择筹码" top="645" size="40" textColor="0x050404" fontFamily="Microsoft YaHei" horizontalCenter="0"/>
+		<e:Image id="Sendbtn" source="Send_png" x="184" y="947.9" name="Sendbtn"/>
+		<e:Group width="425" height="165" y="459.7" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-1.5">
+		<e:Image id="num_0" source="12_png" x="4.05" y="4.85" scaleX="1" scaleY="1" name="num_1"/>
+		<e:Image id="num_1" source="23_png" x="86.05" y="4.85" scaleX="1" scaleY="1" name="num_2"/>
+		<e:Image id="num_2" source="32_png" x="166.05" y="4.85" scaleX="1" scaleY="1" name="num_3"/>
+		<e:Image id="num_3" source="42_png" x="246.05" y="4.85" scaleX="1" scaleY="1" name="num_4"/>
+		<e:Image id="num_4" source="52_png" x="328.05" y="4.85" scaleX="1" scaleY="1" name="num_5"/>
+		<e:Image id="num_5" source="62_png" scaleX="1" scaleY="1" x="4.05" y="84.85" name="num_6"/>
+		<e:Image id="num_6" source="72_png" x="82.05" y="84.85" scaleX="1" scaleY="1" name="num_7"/>
+		<e:Image id="num_7" source="82_png" x="164.05" y="84.85" scaleX="1" scaleY="1" name="num_8"/>
+		<e:Image id="num_8" source="92_png" x="244.05" y="84.85" scaleX="1" scaleY="1" name="num_9"/>
+		<e:Image id="num_9" source="102_png" x="324.05" y="84.85" scaleX="1" scaleY="1" name="num_10"/>
+		</e:Group>
+		<e:Group width="640" height="263" y="688.77" anchorOffsetX="0" anchorOffsetY="0" left="0">
+		<e:Image id="Money_0" x="24.05" y="5" scaleX="1" scaleY="1" name="num_1" source="50_png"/>
+		<e:Image id="Money_1" x="146.05" y="5" scaleX="1" scaleY="1" name="num_2" source="80_png"/>
+		<e:Image id="Money_2" y="5" scaleX="1" scaleY="1" name="num_3" source="100_png" horizontalCenter="0"/>
+		<e:Image id="Money_3" x="390.05" y="5" scaleX="1" scaleY="1" name="num_4" source="150_png"/>
+		<e:Image id="Money_4" y="5" scaleX="1" scaleY="1" name="num_5" source="200_png" right="20"/>
+		<e:Image id="Package_0" source="package2_png" y="121" left="40"/>
+		<e:Image id="Package_1" source="package2_png" y="119" right="40"/>
+		<e:Image id="Package_2" source="package2_png" left="40" bottom="20"/>
+		<e:Image id="Package_3" source="package2_png" right="40" bottom="20"/>
+		<e:Label text="10包1.00倍" x="70" y="129" size="35"/>
+		<e:Label text="7包1.50倍" x="82" y="203" size="35" textAlign="center"/>
+		<e:Label text="5包2.00倍" x="392" y="201" size="35" textAlign="center"/>
+		<e:Label text="8包1.40倍" x="392" y="127" size="35"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

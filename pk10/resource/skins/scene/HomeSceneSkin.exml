@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoomSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<!--<e:Image width="640" height="1136" x="1" y="0" source="bg_room_type_png"/>-->
+	
+<!--<e:Image id="closeButton" width="45" height="45" y="62" right="580" source="home_btn_close-on_png" visible="false"/>
+	<e:Image id="helpImage" width="45" height="45" x="15" y="15" source="nine_help_png" visible="false"/>
+	<e:Image id="serviceButton" width="45" height="45" y="16" source="service_png" right="20" visible="false"/>
+	<e:Image id="cartButton" width="45" height="45" y="15.5" right="75" source="shop_png" visible="false"/>
+	<e:Label id="nameLabel" text="隔壁王小二" x="77" y="20" size="18" visible="false"/>
+	<e:Image width="18" height="18" x="77" y="43" source="money_png" visible="false"/>
+	<e:Label id="balanceLabel" text="0" x="102" y="44" size="18" textColor="0xdfbb3e" visible="false"/>-->
+	<e:Scroller id="mainScroller" width="640" height="1136" scrollPolicyH="off" scrollPolicyV="off" left="0" top="0">
+		<e:Group width="1640">
+			<e:Group id="gameMainGroup" width="640" scaleX="1" scaleY="1" name="gameMainGroup" x="0" y="1">
+				<e:Image width="640" height="1133.33" x="0" y="2.67" anchorOffsetY="0" scaleX="1" scaleY="1" source="reg_bg_new_1_1_png"/>
+				<e:Group width="638" height="160" x="1" y="1" scaleX="1" scaleY="1">
+				<e:Group width="636" height="160" x="1" y="0" anchorOffsetY="0" anchorOffsetX="0">
+					<e:Image width="636" height="160" x="-1" y="1" anchorOffsetX="0" anchorOffsetY="0" source="bg_room_top_new_png"/>
+					<e:Label id="balanceLabel" text="0.00" y="96" textColor="0xefa12b" x="51.16" textAlign="center" anchorOffsetX="0" size="25"/>
+					<e:Label id="onlineCountLabel" text="0" y="96" textColor="0xEFA12B" width="80" x="284" textAlign="center" anchorOffsetX="0" size="28"/>
+				</e:Group>
+				<e:Group width="400" height="80" x="2" y="0">
+					<e:Image width="330.34" height="46" x="8.99" y="17" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="bg_room_top_name_png"/>
+					<e:Label id="nameLabel" text="加载中" x="65" y="30.99" anchorOffsetX="0" width="274.33" anchorOffsetY="0" height="32.01" scaleX="1" scaleY="1" textColor="0xd3d3d3" size="24"/>
+				</e:Group>
+				<e:Group width="235" height="160" x="402" y="1" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Image id="tikuanImage" width="88" height="120" x="29" y="20" anchorOffsetX="0" anchorOffsetY="0" source="btn_tikuan_png"/>
+					<e:Image id="chongzhiImage" width="88" height="120" x="135" y="20" anchorOffsetX="0" anchorOffsetY="0" source="btn_chongzhi_png"/>
+				</e:Group>
+				</e:Group>
+				<e:Group id="noticeGroup" width="638" height="50" x="1" y="161">
+					<e:Label id="noticeLabel" text="欢迎光临!!!" x="517" size="25" verticalCenter="0" textAlign="right" verticalAlign="middle" fontFamily="SimHei"/>
+				</e:Group>
+				<e:Image width="600" height="810" x="20" y="220" scaleX="1" scaleY="1" source="bg_lobby_sub_new_png"/>
+				<e:Scroller width="640" height="773" x="0" y="239" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scaleX="1" scaleY="1">
+				
+				<e:Group id="itemGroup">
+				</e:Group>
+				</e:Scroller>
+				<e:Image id="serviceImage" width="160" height="50" y="1060" horizontalCenter="0" source="online_kefu_png" x="240" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group width="500" scaleX="1" scaleY="1" x="640" y="0" height="1136">
+				<e:Image source="userlistimg_new_png" width="500" height="1136" top="0" scale9Grid="15,16,95,96"/>
+				<e:Label text="账号信息" x="18" y="10" size="18" visible="false"/>
+				<e:Group width="473" height="176" x="16" y="48" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Label text="ID:" x="9" textColor="0xA48846" size="16" y="2" scaleX="1" scaleY="1" top="18" visible="false"/>
+				<e:Label text="账号" x="10" textColor="0xA48846" size="28" top="15" y="12" scaleX="1" scaleY="1"/>
+				<e:Label id="UserId" text="654215" size="16" scaleX="1" scaleY="1" top="18" textColor="0xA48846" anchorOffsetX="0" right="21" textAlign="right" visible="false"/>
+				<e:Label text="昵称" x="10" textColor="0xA48846" size="28" y="73.31" scaleX="1" scaleY="1"/>
+				<e:Label text="金额" x="10" textColor="0xA48846" size="28" top="138" y="32" scaleX="1" scaleY="1"/>
+				<e:Image source="bg_info_png" x="69" height="45" anchorOffsetX="0" width="350.73" top="0"/>
+				<e:Image source="bg_info_png" x="69" y="61.91" width="344.67" height="45" anchorOffsetX="0"/>
+					<e:Image source="bg_info_png" x="69.88" y="127.95" width="344.67" height="45" anchorOffsetX="0"/>
+					<e:Label id="FreezingGoldNum" text="(冻结：0.00)" size="22" scaleX="1" scaleY="1" anchorOffsetX="0" textAlign="left" left="236" top="141" fontFamily="SimHei" textColor="0xa48846"/>
+					<e:Label id="GoldNum" text="9999999" size="30" scaleX="1" scaleY="1" textColor="0xA48846" anchorOffsetX="0" textAlign="left" left="85" top="135"/>
+				<e:Label id="TehUser" text="17508123433423" size="30" scaleX="1" scaleY="1" textColor="0xA48846" textAlign="left" left="85" top="10"/>
+				<e:Label id="UserName" text="加载中" size="30" scaleX="1" scaleY="1" textColor="0xA48846" anchorOffsetX="0" textAlign="left" left="85" top="71"/>
+				</e:Group>
+				<e:Image source="bg_wode_png" x="14.4" y="230.08" anchorOffsetX="0" width="471.78"/>
+				<e:Label text="投注明细(每日更新)" x="82" y="258.08" size="28" textColor="0xFFFFFF"/>
+				<e:Button id="touzhuDetailsImage" label="" x="345.32" y="243" anchorOffsetX="0" width="126" anchorOffsetY="0" height="52">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_detail_png" source.down="btn_detail_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Scroller width="460" height="460" x="22" y="320" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+				<e:Group id="betLogGroup" anchorOffsetX="0" width="460" anchorOffsetY="0" height="500">
+					<e:Group id="betLogDemoCellGroup" width="460" height="50" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Label id="NoerList" text="" x="14" textColor="0xE1C6F5" size="26" verticalCenter="0"/>
+					<e:Label id="NoerGold" text="" x="298" textColor="0xE1C6F5" size="26" textAlign="right" verticalCenter="1"/>
+					</e:Group>
+				</e:Group>
+				</e:Scroller>
+				<e:Label id="todayResultLabel" text="当日盈亏：0筹码" y="849.66" size="28" textColor="0xFFFFFF" horizontalCenter="0.5"/>
+				<e:Label id="todayLonghuResultLabel" text="今日龙虎下注额：0筹码" y="891.66" size="28" textColor="0xFFFFFF" horizontalCenter="0.5"/>
+				<e:Button id="serviceButton" label="" y="950" width="420" height="60" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="chongzhi_input_png" source.down="chongzhi_input_png"/>
+					<e:Label text="联系客服" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Button id="exitButton" label="" y="1030" width="420" height="60" horizontalCenter="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="chongzhi_input_png" source.down="chongzhi_input_png"/>
+					<e:Label text="退出登陆" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Group id="pages" y="790" height="40" width="460" x="22" scaleX="1" scaleY="1">
+					<e:Label id="lastPageLabel" text="上一页" x="92" y="7" fontFamily="SimHei" scaleX="1" scaleY="1" size="25"/>
+					<e:Label id="nextPageLabel" text="下一页" x="267" y="7" fontFamily="SimHei" scaleX="1" scaleY="1" size="25" verticalAlign="middle"/>
+					<e:Label id="currentPageLabel" text="1" x="171" y="7" anchorOffsetX="0" anchorOffsetY="0" size="25" fontFamily="SimHei" textAlign="center" width="38"/>
+					<e:Label text="/" x="209" y="7" anchorOffsetX="0" anchorOffsetY="0" size="25" fontFamily="SimHei"/>
+					<e:Label id="totalPageLabel" text="1" x="226" y="7" anchorOffsetX="0" anchorOffsetY="0" size="25" fontFamily="SimHei" width="38" textAlign="center"/>
+				</e:Group>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

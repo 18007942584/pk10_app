@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameNineSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="mainScroller" width="640" height="1136" x="0" scrollPolicyH="off" scrollPolicyV="off">
+		<e:Group width="1140">
+			<e:Group width="640" height="1136" y="0" scaleX="1" scaleY="1" x="0" id="gameMainGroup" name="gameMainGroup">
+				<e:Image width="640" height="808" x="0" scaleX="1" scaleY="1" bottom="0" source="img_saiche_zuomian_new_png"/>
+				<e:Image top="0" left="0" width="640" source="bg_game_top_new_png" height="130"/>
+				<e:Group id="noticeGroup" width="638" height="50" x="1" y="88">
+					<e:Label id="noticeLabel" text="欢迎光临!!!" x="517" size="25" verticalCenter="0" textAlign="right" verticalAlign="middle" fontFamily="SimHei"/>
+				</e:Group>
+				<e:Image id="backImage" x="15" y="14.85" scaleX="1" scaleY="1" source="btn_back_png"/>
+				<e:Group width="640" height="646.54" x="0" y="378" scaleX="1" scaleY="1" anchorOffsetY="0">
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" verticalCenter="-74.26999999999998" height="120" width="480" horizontalCenter="0" source="niuniu_area_frame_bg_png" scale9Grid="38,36,176,16"/>
+				<e:Image anchorOffsetX="0" anchorOffsetY="0" verticalCenter="85.33499999999998" width="480" height="120" horizontalCenter="0" source="niuniu_area_frame_bg_png" scale9Grid="43,38,164,15"/>
+				<e:Group width="430" height="102" anchorOffsetX="0" anchorOffsetY="0" y="90" horizontalCenter="0">
+					<e:Label text="1000" x="4.55" y="75.33" size="18"/>
+					<e:Image width="54" height="80" x="79.17" y="15" source="poker_35_png"/>
+					<e:Image width="54" height="80" x="134.17" y="15" source="poker_35_png"/>
+					<e:Image width="54" height="80" x="188.67" y="15" source="poker_35_png"/>
+					<e:Image width="54" height="80" x="242.67" y="15" source="poker_35_png"/>
+					<e:Image width="54" height="80" x="299.17" y="15" source="poker_35_png"/>
+				</e:Group>
+				<e:Group width="430" height="102" anchorOffsetX="0" anchorOffsetY="0" y="470" horizontalCenter="0">
+					<e:Label text="1000" x="3.5" y="9.09" size="18" rotation="1.51"/>
+					<e:Image width="54" height="80" x="85.84" y="15" source="poker_35_png"/>
+					<e:Image width="54" height="80" x="140.84" y="15" source="poker_35_png"/>
+					<e:Image width="54" height="80" x="195.34" y="15" source="poker_35_png"/>
+					<e:Image width="54" height="80" x="249.34" y="15" source="poker_35_png"/>
+					<e:Image width="54" height="80" x="305.84" y="15" source="poker_35_png"/>
+				</e:Group>
+				<e:Image id="ruleImage" x="500" source="btn_help_png" scaleX="1" scaleY="1.0309278350515465" bottom="0" y="698.0000000000002"/>
+				<e:Image id="playerListImage" x="570.0000000000001" source="btn_wanjia_png" scaleX="1" scaleY="1.0309278350515465" bottom="0" y="698.0000000000002"/>
+				<e:Image width="140" height="30" scaleX="1" scaleY="1.0309278350515463" horizontalCenter="8" x="258" y="10" source="btnchouma_png"/>
+				<e:Image source="totalchipsimg_png" scaleX="1" scaleY="1.0309278350515463" x="260" y="10"/>
+				<e:Label id="selfTotalBetLabel" text="总额3001" size="18" textAlign="left" scaleX="1" left="300" top="17"/>
+				<e:Label id="nameLabel" text="查询中" x="40.89" y="578.6" size="18" scaleX="1" scaleY="1.0309278350515463" anchorOffsetY="0" height="23.88"/>
+				<e:Label id="stateTicketLabel" text="倒计时30秒" scaleX="1" scaleY="1" verticalCenter="7.730000000000018" horizontalCenter="0.5" size="40" textColor="0xffff00"/>
+				<e:Image x="25.2" scaleX="1" scaleY="1.0309278350515463" source="bg_gold_png" bottom="1.5399999999999636" width="150" height="35" y="721"/>
+				<e:Label id="balanceLabel" text="0" x="76.22" size="28" textColor="0xDFBB3E" scaleX="1" scaleY="1.0309278350515463" bottom="3.5399999999999636" textAlign="left" y="727.4299999999998"/>
+				<e:Image id="leftImage" y="226.88" scaleX="1" scaleY="1.0309278350515463" source="bg_chat_move_png" right="0"/>
+				</e:Group>
+				<e:Label id="titleLabel" text="北京赛车--645125期-牛牛" y="7.4" horizontalCenter="1" size="25" x="235" scaleX="1" scaleY="1" textColor="0xE5E0E0" fontFamily="Arial"/>
+				<e:ToggleButton id="soundButton" label="" x="600" y="15">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" name="soundImage" source="sound_on_png" source.down="sound_off_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:ToggleButton>
+				<e:Image id="rewardResultImage" source="btn_kaijiangjilu_png" x="510" y="60"/>
+				<e:Group width="640" height="245" x="0" y="130.6" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+				<e:Image x="0" anchorOffsetX="0" anchorOffsetY="0" top="0" source="chedao_bg_new_png" width="640" height="245"/>
+				<e:Image source="sudu_car_png" left="0" top="0" width="640"/>
+				<e:Image source="sudu_car_png" x="8" bottom="0" width="640"/>
+				<e:Scroller id="raceBgScroller0" width="640" height="200" x="0" y="0">
+					<e:Group id="raceBgScrollerGroup0" width="4600" scrollH="0" visible="false"/>
+				</e:Scroller>
+				<e:Image id="startLineImage0" width="15" height="200" x="100" source="boat_start_png" verticalCenter="0"/>
+				<e:Group id="lightGroup0" width="170" height="50" x="470" y="22.17" visible="false">
+					<e:Image width="170" height="50" x="1.5" y="0" source="light_bg_png" anchorOffsetX="0" anchorOffsetY="0"/>
+					<e:Image id="lightImage0" width="44" height="44" x="5" y="2" source="light_1_png"/>
+					<e:Image id="lightImage1" width="44" height="44" x="45" y="2" source="light_2_png"/>
+					<e:Image id="lightImage2" width="44" height="44" x="84" y="2" source="light_2_png"/>
+					<e:Image id="lightImage3" width="44" height="44" x="122" y="2" source="light_2_png"/>
+				</e:Group>
+				<e:BitmapLabel id="timeLabel0" width="180" height="50" x="273.83" y="-41.32" text="180" anchorOffsetX="0" anchorOffsetY="0" font="time_number_fnt"/>
+					<e:Image id="startLineImage1" width="15" height="200" x="520" source="boat_start_png" verticalCenter="0" y="0" scaleX="1" scaleY="1"/>
+					<e:Group width="100" height="200" x="540" y="21" id="carGroup" scaleX="1" scaleY="1">
+						<e:Group id="carGroup_10" name="racecarGroup_1" width="100" height="20" x="1" y="1" scaleX="1" scaleY="1">
+						<e:Image id="carImage_19" name="carImage_1" width="70" height="20" x="0" y="0" source="car1_1_png"/>
+						<e:Image id="airImage_19" name="airImage_1" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_19" name="lunziImage_1" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_19" name="fireImage_1" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_0" name="racecarGroup_2" width="100" height="20" x="1" y="20" scaleX="1" scaleY="1">
+						<e:Image id="carImage_10" name="carImage_2" width="70" height="20" x="0" y="0" source="car1_2_png"/>
+						<e:Image id="airImage_10" name="airImage_2" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_10" name="lunziImage_2" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_10" name="fireImage_2" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_1" name="racecarGroup_3" width="100" height="20" x="1" y="40" scaleX="1" scaleY="1">
+						<e:Image id="carImage_20" name="carImage_3" width="70" height="20" x="0" y="0" source="car1_3_png"/>
+						<e:Image id="airImage_20" name="airImage_3" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_20" name="lunziImage_3" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_20" name="fireImage_3" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_2" name="racecarGroup_4" width="100" height="20" x="1" y="60" scaleX="1" scaleY="1">
+						<e:Image id="carImage_11" name="carImage_4" width="70" height="20" x="0" y="0" source="car1_4_png"/>
+						<e:Image id="airImage_11" name="airImage_4" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_11" name="lunziImage_4" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_11" name="fireImage_4" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_3" name="racecarGroup_5" width="100" height="20" x="1" y="80" scaleX="1" scaleY="1">
+						<e:Image id="carImage_12" name="carImage_5" width="70" height="20" x="0" y="0" source="car1_5_png"/>
+						<e:Image id="airImage_12" name="airImage_5" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_12" name="lunziImage_5" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_12" name="fireImage_5" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_4" name="racecarGroup_6" width="100" height="20" x="1" y="100" scaleX="1" scaleY="1">
+						<e:Image id="carImage_13" name="carImage_6" width="70" height="20" x="0" y="0" source="car1_6_png"/>
+						<e:Image id="airImage_13" name="airImage_6" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_13" name="lunziImage_6" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_13" name="fireImage_6" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_5" name="racecarGroup_7" width="100" height="20" x="1" y="120" scaleX="1" scaleY="1">
+						<e:Image id="carImage_14" name="carImage_7" width="70" height="20" x="0" y="0" source="car1_7_png"/>
+						<e:Image id="airImage_14" name="airImage_7" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_14" name="lunziImage_7" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_14" name="fireImage_7" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_6" name="racecarGroup_8" width="100" height="20" x="1" y="140" scaleX="1" scaleY="1">
+						<e:Image id="carImage_15" name="carImage_8" width="70" height="20" x="0" y="0" source="car1_8_png"/>
+						<e:Image id="airImage_15" name="airImage_8" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_15" name="lunziImage_8" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_15" name="fireImage_8" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_7" name="racecarGroup_9" width="100" height="20" x="1" y="160" scaleX="1" scaleY="1">
+						<e:Image id="carImage_16" name="carImage_9" width="70" height="20" x="0" y="0" source="car1_9_png"/>
+						<e:Image id="airImage_16" name="airImage_9" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_16" name="lunziImage_9" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_16" name="fireImage_9" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+						<e:Group id="carGroup_8" name="racecarGroup_10" width="100" height="20" x="1" y="180" scaleX="1" scaleY="1">
+						<e:Image id="carImage_17" name="carImage_10" width="70" height="20" x="0" y="0" source="car1_10_png"/>
+						<e:Image id="airImage_17" name="airImage_10" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+						<e:Image id="lunziImage_17" name="lunziImage_10" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+						<e:Image id="fireImage_17" name="fireImage_10" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+						</e:Group>
+					</e:Group>
+				<e:Group id="raceGroup0" width="640" height="200" x="0" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0">
+					<e:Group id="racecarGroup_0" name="racecarGroup_1" width="100" height="20" x="1" y="1">
+					<e:Image id="carImage_0" name="carImage_1" width="70" height="20" x="0" y="0" source="car1_1_png"/>
+					<e:Image id="airImage_0" name="airImage_1" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_0" name="lunziImage_1" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_0" name="fireImage_1" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_1" name="racecarGroup_2" width="100" height="20" x="0" y="20">
+					<e:Image id="carImage_1" name="carImage_2" width="70" height="20" x="0" y="0" source="car1_2_png"/>
+					<e:Image id="airImage_1" name="airImage_2" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_1" name="lunziImage_2" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_1" name="fireImage_2" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_2" name="racecarGroup_3" width="100" height="20" x="0" y="40">
+					<e:Image id="carImage_2" name="carImage_3" width="70" height="20" x="0" y="0" source="car1_3_png"/>
+					<e:Image id="airImage_2" name="airImage_3" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_2" name="lunziImage_3" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_2" name="fireImage_3" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_3" name="racecarGroup_4" width="100" height="20" x="0" y="60">
+					<e:Image id="carImage_3" name="carImage_4" width="70" height="20" x="0" y="0" source="car1_4_png"/>
+					<e:Image id="airImage_3" name="airImage_4" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_3" name="lunziImage_4" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_3" name="fireImage_4" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_4" name="racecarGroup_5" width="100" height="20" x="0" y="80">
+					<e:Image id="carImage_4" name="carImage_5" width="70" height="20" x="0" y="0" source="car1_5_png"/>
+					<e:Image id="airImage_4" name="airImage_5" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_4" name="lunziImage_5" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_4" name="fireImage_5" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_5" name="racecarGroup_6" width="100" height="20" x="0" y="100">
+					<e:Image id="carImage_5" name="carImage_6" width="70" height="20" x="0" y="0" source="car1_6_png"/>
+					<e:Image id="airImage_5" name="airImage_6" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_5" name="lunziImage_6" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_5" name="fireImage_6" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_6" name="racecarGroup_7" width="100" height="20" x="0" y="120">
+					<e:Image id="carImage_6" name="carImage_7" width="70" height="20" x="0" y="0" source="car1_7_png"/>
+					<e:Image id="airImage_6" name="airImage_7" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_6" name="lunziImage_7" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_6" name="fireImage_7" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_7" name="racecarGroup_8" width="100" height="20" x="0" y="140">
+					<e:Image id="carImage_7" name="carImage_8" width="70" height="20" x="0" y="0" source="car1_8_png"/>
+					<e:Image id="airImage_7" name="airImage_8" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_7" name="lunziImage_8" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_7" name="fireImage_8" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_8" name="racecarGroup_9" width="100" height="20" x="0" y="160">
+					<e:Image id="carImage_8" name="carImage_9" width="70" height="20" x="0" y="0" source="car1_9_png"/>
+					<e:Image id="airImage_8" name="airImage_9" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_8" name="lunziImage_9" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_8" name="fireImage_9" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+					<e:Group id="racecarGroup_9" name="racecarGroup_10" width="100" height="20" x="0" y="180">
+					<e:Image id="carImage_9" name="carImage_10" width="70" height="20" x="0" y="0" source="car1_10_png"/>
+					<e:Image id="airImage_9" name="airImage_10" width="48" height="20" x="-5" y="0" source="car1_air_1_png"/>
+					<e:Image id="lunziImage_9" name="lunziImage_10" width="13" height="13" x="51" y="8" source="car1_lunzi_1_png"/>
+					<e:Image id="fireImage_9" name="fireImage_10" width="30" height="20" x="69" y="2" source="car1_fire_1_png" scaleX="1" scaleY="1"/>
+					</e:Group>
+				</e:Group>
+				</e:Group>
+				<e:Group width="640" height="80" x="0" scaleX="1" scaleY="1" bottom="0">
+				<e:Image source="img_choumaBg_new_png" left="-4" width="640" height="80" bottom="0" scale9Grid="4,0,4,108"/>
+				<e:Image source="btn_chongzhiImg_png" x="544.33" y="-11.64" scaleX="1" scaleY="1"/>
+				<e:Label id="testLabel0" text="测试" y="76" right="0" visible="false"/>
+				</e:Group>
+				<e:Group width="640" height="80" x="0" scaleX="1" scaleY="1" bottom="0">
+				<e:ToggleSwitch name="chip_toggle_10" id="chip_toggle_0" label="" width="100" height="100" left="0" bottom="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="money_10-2_png" source.down="money_10_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+				<e:ToggleSwitch name="chip_toggle_50" id="chip_toggle_1" label="" x="90" width="100" height="100" bottom="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="money_50-2_png" source.down="money_50_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+				<e:ToggleSwitch name="chip_toggle_100" id="chip_toggle_2" label="" x="180" width="100" height="100" bottom="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="money_100-2_png" source.down="money_100_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+				<e:ToggleSwitch name="chip_toggle_500" id="chip_toggle_3" label="" x="270" width="100" height="100" bottom="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="money_500-2_png" source.down="money_500_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+				<e:ToggleSwitch name="chip_toggle_1000" id="chip_toggle_4" label="" width="100" height="100" bottom="0" x="360">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="money_1000-2_png" source.down="money_1000_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:ToggleSwitch>
+					<e:ToggleSwitch name="chip_toggle_5000" id="chip_toggle_6" label="" width="100" height="100" bottom="0" x="438">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="money_5000-2_png" source.down="money_5000_png"/>
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+							</e:Skin>
+						</e:skinName>
+					</e:ToggleSwitch>
+				</e:Group>
+				<e:Group width="305" height="37" y="47.97" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5" x="168" scaleX="1" scaleY="1">
+				<e:Image width="25" height="25" x="5" source="10_png" verticalCenter="0"/>
+				<e:Image width="25" height="25" x="35" y="6.5" source="1_png"/>
+				<e:Image width="25" height="25" x="65" y="6.5" source="2_png"/>
+				<e:Image width="25" height="25" x="95" y="6.5" source="3_png"/>
+				<e:Image width="25" height="25" x="125" y="6.5" source="4_png"/>
+				<e:Image width="25" height="25" x="155" y="6.5" source="5_png"/>
+				<e:Image width="25" height="25" x="185" y="6.5" source="6_png"/>
+				<e:Image width="25" height="25" x="215" y="6.5" source="7_png"/>
+				<e:Image width="25" height="25" x="245" y="6.5" source="8_png"/>
+				<e:Image width="25" height="25" x="275" y="6.5" source="9_png"/>
+				</e:Group>
+			</e:Group>
+			<e:Group width="500" height="1136" x="640" y="0" scaleX="1" scaleY="1">
+				<e:Image source="userlistimg_new_png" width="500" height="1136" top="0" scale9Grid="15,16,95,96"/>
+				<e:Label text="账号信息" x="18" y="10" size="18"/>
+				<e:Group width="473" height="176" x="16" y="48" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Label text="ID:" x="9" textColor="0xA48846" size="16" y="2" scaleX="1" scaleY="1" top="18" visible="false"/>
+				<e:Label text="账号" x="10" textColor="0xA48846" size="28" top="15" y="12" scaleX="1" scaleY="1"/>
+				<e:Label id="UserId0" text="654215" size="16" scaleX="1" scaleY="1" top="18" textColor="0xA48846" anchorOffsetX="0" right="21" textAlign="right" visible="false"/>
+				<e:Label text="昵称" x="10" textColor="0xA48846" size="28" y="73.31" scaleX="1" scaleY="1"/>
+				<e:Label text="金额" x="10" textColor="0xA48846" size="28" top="138" y="32" scaleX="1" scaleY="1"/>
+				<e:Image source="bg_info_png" x="69" height="45" anchorOffsetX="0" width="350.73" top="0"/>
+					<e:Image source="bg_info_png" x="69.88" y="127.95" width="344.67" height="45" anchorOffsetX="0"/>
+					<e:Image source="bg_info_png" x="69" y="61.91" width="344.67" height="45" anchorOffsetX="0"/>
+					<e:Label id="GoldNum" text="9999999" size="30" scaleX="1" scaleY="1" textColor="0xA48846" anchorOffsetX="0" textAlign="left" left="98" top="135"/>
+					<e:Label id="FreezingGoldNum" text="(冻结：0.00)" size="22" scaleX="1" scaleY="1" anchorOffsetX="0" textAlign="left" left="236" top="141" fontFamily="SimHei" textColor="0xA48846"/>
+				<e:Label id="TehUser" text="17508123433423" size="30" scaleX="1" scaleY="1" textColor="0xA48846" textAlign="left" left="79" top="10"/>
+				<e:Label id="UserName" text="隔壁王小二" size="30" scaleX="1" scaleY="1" textColor="0xA48846" anchorOffsetX="0" textAlign="left" left="92" top="71"/>
+				</e:Group>
+				<e:Image source="bg_wode_png" x="14.4" y="230.08" anchorOffsetX="0" width="471.78"/>
+				<e:Label text="投注明细(每日更新)" x="78.5" y="260.1" size="28" textColor="0xffffff"/>
+				<e:Button id="touzhuDetailsImage" label="" x="345.32" y="243" anchorOffsetX="0" width="126" anchorOffsetY="0" height="52">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_detail_png" source.down="btn_detail_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+				<e:Scroller width="460" height="540" x="22" y="320" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+				<e:Group anchorOffsetX="0" width="460" anchorOffsetY="0" height="540">
+					<e:Group width="460" height="50" anchorOffsetX="0" anchorOffsetY="0">
+					<e:Label id="NoerList" text="6255412期" x="14" textColor="0xE1C6F5" size="26" verticalCenter="0"/>
+					<e:Label id="NoerGold" text="100" x="298" textColor="0xE1C6F5" size="26" textAlign="right" verticalCenter="1"/>
+					</e:Group>
+				</e:Group>
+				</e:Scroller>
+				<e:Label text="当日盈亏：5020筹码" y="891.66" size="28" horizontalCenter="0.5" textColor="0xffffff"/>
+				<e:Button id="serviceButton" label="" y="950" width="420" height="60" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="chongzhi_input_png" source.down="chongzhi_input_png"/>
+						<e:Label text="联系客服" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button label="" y="1030" width="420" height="60" horizontalCenter="0">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="chongzhi_input_png" source.down="chongzhi_input_png"/>
+						<e:Label text="退出登陆" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>		

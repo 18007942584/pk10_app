@@ -1,0 +1,36 @@
+{
+	"native": {
+		"path_ignore": [],
+		"ios_path": "../pk10_ios",
+		"android_as_path": "../pk10_Andorid"
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.0.13",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "socket"
+		}
+	],
+	"target": {
+		"current": "web"
+	}
+}

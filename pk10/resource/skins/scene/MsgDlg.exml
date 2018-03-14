@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MsgDlg" width="640" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="MsgGroup" width="640" height="85" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0" name="MsgGroup">
+		<e:Image id="MsgImage" anchorOffsetX="0" anchorOffsetY="0" name="MsgImage" source="qipao_png" y="17" scale9Grid="2,18,42,43" left="0"/>
+		<e:Label id="UsereName" text="[玛丽]" size="16" name="UsereName" textColor="0xf70404" left="8" y="0" textAlign="left"/>
+		<e:Label id="MsgLabel" text="大大大" y="43" size="18" name="MsgLabel" anchorOffsetY="0" anchorOffsetX="0" fontFamily="Microsoft YaHei" multiline="true" background="false" backgroundColor="0x0c0c0c" lineSpacing="10" textColor="0x0c0c0c" maxChars="30" textAlign="left" left="6"/>
+		<e:Label text="123123123123123" x="356" y="77" visible="false"/>
+	</e:Group>
+</e:Skin>

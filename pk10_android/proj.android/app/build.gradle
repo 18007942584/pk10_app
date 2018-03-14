@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "27.0.2"
+
+    defaultConfig {
+        applicationId "com.rainbow.typk10"
+        minSdkVersion 14
+        targetSdkVersion 25
+        versionCode 3
+        versionName "1.0.3"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets{
+        main{
+            assets.srcDirs = ['../assets']
+            jniLibs.srcDirs=['libs']
+        }
+    }
+
+    productFlavors {
+        kn86pk10 {
+            applicationId "com.rainbow.kn86pk10"
+            resValue "string", "app_name", "pk10"
+            manifestPlaceholders = [CHANNEL_VALUE: "kn86pk10",
+                                    UPDATE_URL_VALUE:"http://pk.kn86.cn/update_kn86pk10/version.php",
+                                    app_icon:"@mipmap/ic_launcher_shpk10"]
+        }
+        shpk10 {
+            applicationId "com.rainbow.shpk10"
+            resValue "string", "app_name", "四海娱乐"
+            manifestPlaceholders = [CHANNEL_VALUE: "shpk10",
+                                    "UPDATE_URL_VALUE":"http://pk.kn86.cn/update_shpk10/version.php",
+                                    app_icon:"@mipmap/ic_launcher_shpk10"]
+        }
+        typk10 {
+            applicationId "com.rainbow.typk10"
+            resValue "string", "app_name", "天娱娱乐"
+            manifestPlaceholders = [CHANNEL_VALUE: "typk10",
+                                    "UPDATE_URL_VALUE":"http://pk.kn86.cn/update_typk10/version.php",
+                                    app_icon:"@mipmap/ic_launcher_typk10"]
+        }
+        jtpk10 {
+            applicationId "com.rainbow.jtpk10"
+            resValue "string", "app_name", "新濠天地"
+            manifestPlaceholders = [CHANNEL_VALUE: "jtpk10",
+                                    "UPDATE_URL_VALUE":"http://pk.kn86.cn/update_jtpk10/version.php",
+                                    app_icon:"@mipmap/ic_launcher_jtpk10"]
+        }
+        zcpk10 {
+            applicationId "com.rainbow.zcpk10"
+            resValue "string", "app_name", "中彩娱乐"
+            manifestPlaceholders = [CHANNEL_VALUE: "zcpk10",
+                                    "UPDATE_URL_VALUE":"http://pk.kn86.cn/update_zcpk10/version.php",
+                                    app_icon:"@mipmap/ic_launcher_zcpk10"]
+        }
+        mfpk10 {
+            applicationId "com.rainbow.mfpk10"
+            resValue "string", "app_name", "明发娱乐"
+            manifestPlaceholders = [CHANNEL_VALUE: "mfpk10",
+                                    "UPDATE_URL_VALUE":"http://pk.kn86.cn/update_mfpk10/version.php",
+                                    app_icon:"@mipmap/ic_launcher_mfpk10"]
+        }
+    }
+
+
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+   compile 'com.android.support:appcompat-v7:19.+'
+}

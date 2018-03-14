@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CreateHongbao" width="330" height="170" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="honGroup" width="330" height="170" left="0" top="0" name="honGroup">
+		<e:Image id="HongbaoImage" source="hongbao1_png" x="2" bottom="0" y="49" scaleX="1" scaleY="1" name="HongbaoImage"/>
+		<e:Label id="NameLabel" text="游客" y="18" scaleX="1" scaleY="1" name="NameLabel" textColor="0x666666" fontFamily="Microsoft YaHei" horizontalCenter="-107" size="22"/>
+		<e:Label id="DataLabel" text="500筹码" x="88" y="81" verticalAlign="justify" anchorOffsetX="0" size="20" scaleX="1" scaleY="1" name="DataLabel" fontFamily="SimHei"/>
+		<e:Label id="DataLabel0" text="10包/剩10包" x="183" y="81" verticalAlign="justify" anchorOffsetX="0" size="20" scaleX="1" scaleY="1" name="DataLabel0" fontFamily="SimHei"/>
+		<e:Label text="查看红包" x="87" y="114" verticalAlign="justify" anchorOffsetX="0" size="15" scaleX="1" scaleY="1" name="DataLabel1"/>
+		<e:Label text="雷位:" x="32" y="145" verticalAlign="justify" anchorOffsetX="0" size="15" scaleX="1" scaleY="1" name="DataLabel1" textColor="0x070707" fontFamily="SimHei" anchorOffsetY="0" height="-9"/>
+		<e:Label id="DataLabel3" text="1" x="77" y="145" verticalAlign="justify" anchorOffsetX="0" size="15" scaleX="1" scaleY="1" name="DataLabel3" textColor="0x070707" fontFamily="SimHei" anchorOffsetY="0" height="-9"/>
+		<e:Image id="rayImage" x="72" y="143" width="20" height="20" source="1_1_png" name="rayImage" visible="false"/>
+	</e:Group>
+</e:Skin>

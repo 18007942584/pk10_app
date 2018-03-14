@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameCarSceneSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="640" height="1136" x="0" y="0" source="carimg_bg_png"/>
+	<e:Image id="backImage" width="45" height="45" x="15" y="15" source="home_back_png"/>
+	<e:Label text="北京赛车--645125期-牛牛" y="5.5" horizontalCenter="0.5" size="15"/>
+	<e:Image width="640" height="155" x="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="carimg_userinfobg_png" bottom="0"/>
+	<e:Group width="640" height="200" x="0" y="70" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image width="640" height="150" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="waitbg_png"/>
+		<e:Group width="170" height="50" x="470" y="20">
+			<e:Image width="170" height="50" x="1.5" y="0" source="light_bg_png" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image width="44" height="44" x="5" y="2" source="light_1_png"/>
+			<e:Image width="44" height="44" x="45" y="2" source="light_2_png"/>
+			<e:Image width="44" height="44" x="84" y="2" source="light_2_png"/>
+			<e:Image width="44" height="44" x="122" y="2" source="light_2_png"/>
+		</e:Group>
+		<e:Group width="640" height="35" x="0" y="110">
+			<e:Group width="60" height="35" x="0" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" source="car2_1_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="carfire_png"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="65" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_2_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="130" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_3_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="195" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_4_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="260" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_5_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="325" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_6_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="390" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_7_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="455" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_8_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="515" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_9_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+			<e:Group width="60" height="35" x="580" y="0" scaleX="1" scaleY="1">
+				<e:Image width="50" height="30" horizontalCenter="0" verticalCenter="0" source="car2_10_png"/>
+				<e:Image width="50" height="30" source="carfire_png" horizontalCenter="0" verticalCenter="0"/>
+			</e:Group>
+		</e:Group>
+		<e:Image width="640" height="50" x="0" y="150" anchorOffsetX="0" anchorOffsetY="0" source="carimg_carlist_png"/>
+		<e:Group width="122" height="44" y="8" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+			<e:Image width="18" height="32" x="30" y="9" source="timefont_1_png" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image width="18" height="32" y="9" anchorOffsetX="0" anchorOffsetY="0" source="timefont_8_png" horizontalCenter="0"/>
+			<e:Image width="18" height="32" x="73" y="9" anchorOffsetX="0" anchorOffsetY="0" source="timefont_0_png"/>
+			<e:Image width="11" height="19" x="94" y="20" anchorOffsetX="0" anchorOffsetY="0" source="timefont_5_png"/>
+		</e:Group>
+	</e:Group>
+	<e:Group width="640" height="80" x="3" bottom="0">
+		<e:Image width="640" height="90" x="0" y="-10" source="bottombg_png"/>
+		<e:ToggleSwitch label="" x="30" y="0" width="80" height="80">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="money_10_normal_png" source.down="money_10_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch label="" x="110" y="0" width="80" height="80">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="money_50_normal_png" source.down="money_50_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch label="" x="190" y="0" width="80" height="80">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="money_100_normal_png" source.down="money_100_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch label="" x="280" y="0" width="80" height="80">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="money_500_normal_png" source.down="money_500_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch label="" x="370" y="0" width="80" height="80">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="money_1000_normal_png" source.down="money_1000_selected_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+	<e:Group width="640" height="75" bottom="80">
+		<e:Image id="chargeImage" width="30" height="30" x="515" y="30.5" source="carimg_charge_png"/>
+		<e:Image id="helpImage0" width="30" height="30" x="554" y="31.5" source="carimg_help_png"/>
+		<e:Image id="helpImage1" width="30" height="30" x="590" y="30" source="carimg_userlist_png"/>
+		<e:Label id="nameLabel" text="隔壁王小二" x="40" y="19.5" size="18"/>
+		<e:Image width="18" height="18" x="40" y="42.5" source="money_png"/>
+		<e:Label text="542102" x="65" y="43.5" size="18" textColor="0xDFBB3E"/>
+		<e:Label text="合计:100000" size="16" textColor="0xDFBB3E" horizontalCenter="0" top="10"/>
+	</e:Group>
+	<e:Group width="640" height="760" x="0" y="270">
+		<e:Image width="640" height="680" x="0" scaleX="1" scaleY="1" y="0" source="money_bg_png"/>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" left="50" top="25">
+			<e:Image width="102" height="119" source="carimg_money_1_selected_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0"/>
+			<e:Label text="+100000" y="125" textColor="0xedb41b" size="16" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="25">
+			<e:Image width="102" height="119" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0" source="carimg_money_2_selected_png"/>
+			<e:Label text="+100000" y="125" textColor="0xEDB41B" size="16" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" right="50" top="25">
+			<e:Image width="102" height="119" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0" source="carimg_money_3_selected_png"/>
+			<e:Label text="+100000" y="125" textColor="0xEDB41B" size="16" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" left="50" x="50" y="200" scaleX="1" scaleY="1">
+			<e:Image width="102" height="119" source="carimg_money_1_selected_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0"/>
+			<e:Label text="+100000" y="125" textColor="0xEDB41B" size="16" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="245" y="200" scaleX="1" scaleY="1">
+			<e:Image width="102" height="119" source="carimg_money_2_selected_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0"/>
+			<e:Label text="+100000" y="125" textColor="0xEDB41B" size="16" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" right="50" x="440" y="200" scaleX="1" scaleY="1">
+			<e:Image width="102" height="119" source="carimg_money_3_selected_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0"/>
+			<e:Label text="+100000" y="125" textColor="0xEDB41B" size="16" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" left="50" x="50" y="400" scaleX="1" scaleY="1">
+			<e:Image width="102" height="119" source="carimg_money_1_selected_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0"/>
+			<e:Label text="+100000" y="125" textColor="0xEDB41B" size="16" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="245" y="400" scaleX="1" scaleY="1">
+			<e:Image width="102" height="119" source="carimg_money_2_selected_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0"/>
+			<e:Label text="+100000" y="125" textColor="0xEDB41B" size="16" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group width="150" height="150" anchorOffsetX="0" anchorOffsetY="0" right="50" x="440" y="400" scaleX="1" scaleY="1">
+			<e:Image width="102" height="119" source="carimg_money_3_selected_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="0"/>
+			<e:Label text="+100000" y="125" textColor="0xEDB41B" size="16" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+	<e:Group width="305" height="37" y="31" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" visible="false">
+		<e:Image width="25" height="25" x="5" source="num_10_png" verticalCenter="0"/>
+		<e:Image width="25" height="25" x="35" y="6.5" source="num_1_png"/>
+		<e:Image width="25" height="25" x="65" y="6.5" source="num_2_png"/>
+		<e:Image width="25" height="25" x="95" y="6.5" source="num_3_png"/>
+		<e:Image width="25" height="25" x="125" y="6.5" source="num_4_png"/>
+		<e:Image width="25" height="25" x="155" y="6.5" source="num_5_png"/>
+		<e:Image width="25" height="25" x="185" y="6.5" source="num_6_png"/>
+		<e:Image width="25" height="25" x="215" y="6.5" source="num_7_png"/>
+		<e:Image width="25" height="25" x="245" y="6.5" source="num_8_png"/>
+		<e:Image width="25" height="25" x="275" y="6.5" source="num_9_png"/>
+	</e:Group>
+</e:Skin>

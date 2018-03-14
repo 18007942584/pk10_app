@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BetPCDanDANInfoCell" width="462" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" name="betCellGroup" left="0" top="0">
+		<e:Image id="detailCellBgImage" left="0" right="0" top="-1" bottom="1" source="userlistimg_new_png" x="0" y="-1" scaleX="1" scaleY="1" width="462" name="detailCellBgImage" scale9Grid="15,16,95,96"/>
+		<e:Image id="detailCellBgImage1" left="0" right="0" x="0" scaleX="1" scaleY="1" name="detailCellBgImage" scale9Grid="15,16,95,96" source="userlistimg_new_1_png" anchorOffsetY="0" bottom="0" height="250" visible="false"/>
+		<e:Group id="detailsHeadGroup" width="460" height="76" x="1" y="1" anchorOffsetX="0" anchorOffsetY="0" name="detailsHeadGroup">
+		<e:Image id="detailsShowImage" width="20" height="20" x="10" y="14" source="details_open_png" name="detailsShowImage"/>
+		<e:Label id="timeLabel" text="2018-01-06 14:02:34" x="40" y="14" size="20" fontFamily="SimHei" name="timeLabel"/>
+		<e:Label text="本局收益：" x="242" y="14" size="20" fontFamily="SimHei"/>
+		<e:Label id="resultValueLabel" name="resultValueLabel" text="+1300" size="22" textAlign="right" x="341" y="15" scaleX="1" scaleY="1" textColor="0x3ADB0F"/>
+		<e:Label id="gameDetailLabel" text="[PC蛋蛋-874397期-PC蛋蛋]" x="40" y="43" size="22" fontFamily="SimHei" name="gameDetailLabel"/>
+		</e:Group>
+		<e:Group id="detailsMainGroup" width="460" height="168" y="78" anchorOffsetX="0" anchorOffsetY="0" x="1" name="detailsMainGroup">
+		<e:Label text="混合" x="72" y="14" size="22" fontFamily="SimHei" textColor="0xE7D648"/>
+			<e:Label text="特码" x="342" y="14" size="22" fontFamily="SimHei" textColor="0xE7D648"/>
+		<e:Label text="小:" x="12" y="64" size="16" fontFamily="SimHei" textColor="0x3dfc07" visible="false"/>
+			<e:Label text="豹子:" x="12" y="104" size="16" fontFamily="SimHei" textColor="0x3DFC07" visible="false"/>
+		<e:Label text="100" x="36" y="65" size="16" fontFamily="SimHei" textAlign="center" name="code_hu_label" visible="false"/>
+			<e:Label id="temaLabel" text="13:" x="332" y="64" size="16" fontFamily="SimHei" textColor="0x3DFC07" name="temaLabel"/>
+			<e:Label id="TeMaGoldLabel" text="100" x="366" y="65" size="16" fontFamily="SimHei" textAlign="center" name="TeMaGoldLabel"/>
+			<e:Label text="蓝波:" x="132" y="64" size="16" fontFamily="SimHei" textColor="0x3DFC07" visible="false"/>
+			<e:Label text="100" x="176" y="65" size="16" fontFamily="SimHei" textAlign="center" name="code_hu_label" visible="false"/>
+			<e:Label text="100" x="56" y="105" size="16" fontFamily="SimHei" textAlign="center" name="code_hu_label" visible="false"/>
+		<e:Label id="code_result_label0" text="8" x="332" y="68" size="20" fontFamily="SimHei" width="66" textAlign="center" name="code_hu_label" visible="false"/>
+			<e:Scroller width="212" height="109" x="5" y="53" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group anchorOffsetY="0" height="216" anchorOffsetX="0" width="231">
+					<e:Group width="165" height="40" x="13" y="9" anchorOffsetX="0" anchorOffsetY="0">
+						<e:Label id="dsLabel" text="单:" x="14" y="12" size="16" fontFamily="SimHei" textColor="0x3DFC07" name="dsLabel" scaleX="1" scaleY="1"/>
+						<e:Label id="dsGoldLabel" text="100" x="48" y="13" size="16" fontFamily="SimHei" textAlign="center" name="dsGoldLabel" scaleX="1" scaleY="1"/>
+						<e:Label id="dsLabel0" text="单:" x="94" y="12" size="16" fontFamily="SimHei" textColor="0x3DFC07" name="dsLabel" scaleX="1" scaleY="1"/>
+						<e:Label id="dsGoldLabel0" text="100" x="128" y="13" size="16" fontFamily="SimHei" textAlign="center" name="dsGoldLabel" scaleX="1" scaleY="1"/>
+					</e:Group>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller width="212" height="109" x="245" y="53" anchorOffsetX="0" anchorOffsetY="0">
+				<e:Group anchorOffsetY="0" height="216"/>
+			</e:Scroller>
+		</e:Group>
+		<e:Image width="460" height="2" y="248" anchorOffsetX="0" anchorOffsetY="0" source="details_line_ong"/>
+	</e:Group>
+</e:Skin>

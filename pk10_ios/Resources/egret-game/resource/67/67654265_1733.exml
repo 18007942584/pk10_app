@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NineofficialSelectDlg" width="540" height="100" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="540" height="100" left="0" top="0" name="officialSelectGroup">
+		<e:Image anchorOffsetY="0" left="1" top="0" height="100" width="540" x="1" y="0" scaleX="1" scaleY="1" source="bglist_tankuang_new_png"/>
+		<e:Label id="NoerLabel0" text="6554917期" x="33" size="25" top="10" y="10" scaleX="1" scaleY="1" name="NoerLabel"/>
+		<e:Label id="TimeLabel0" text="2017-12-11 10:27:00" x="283" size="25" top="10" y="10" scaleX="1" scaleY="1" name="TimeLabel"/>
+		<e:Image id="Ranking_Image_0" source="1_png" x="25" scaleX="1" scaleY="1" name="Ranking_Image_1" bottom="10"/>
+		<e:Image id="Ranking_Image_1" source="2_png" x="70" y="52" scaleX="1" scaleY="1" name="Ranking_Image_2" bottom="10"/>
+		<e:Image id="Ranking_Image_2" source="3_png" x="115" y="52" scaleX="1" scaleY="1" name="Ranking_Image_3"/>
+		<e:Image id="Ranking_Image_3" source="4_png" x="160" y="52" scaleX="1" scaleY="1" name="Ranking_Image_4"/>
+		<e:Image id="Ranking_Image_4" source="5_png" x="205" y="52" scaleX="1" scaleY="1" name="Ranking_Image_5"/>
+		<e:Image id="Ranking_Image_5" source="6_png" x="250" y="52" scaleX="1" scaleY="1" name="Ranking_Image_6"/>
+		<e:Image id="Ranking_Image_6" source="7_png" x="295" y="52" scaleX="1" scaleY="1" name="Ranking_Image_7"/>
+		<e:Image id="Ranking_Image_7" source="8_png" x="340" y="52" scaleX="1" scaleY="1" name="Ranking_Image_8"/>
+		<e:Image id="Ranking_Image_8" source="9_png" x="385" y="52" scaleX="1" scaleY="1" name="Ranking_Image_9"/>
+		<e:Image id="Ranking_Image_9" source="10_png" x="430" y="52" scaleX="1" scaleY="1" name="Ranking_Image_10"/>
+	</e:Group>
+</e:Skin>

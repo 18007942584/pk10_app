@@ -1,0 +1,31 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "globalBindingDataTestObj": [],
+    "globalRulerEnable": true,
+    "globalAdsorbEnable": false
+  },
+  "160300aca98": {
+    "bindingDataTestObj": []
+  },
+  "1606f72f1e2": {
+    "guideLines": [
+      {
+        "type": "h",
+        "pos": -25.333
+      }
+    ]
+  },
+  "160aabb24a7": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "160cad3a0eb": {
+    "guideLinesEnabled": false
+  }
+}

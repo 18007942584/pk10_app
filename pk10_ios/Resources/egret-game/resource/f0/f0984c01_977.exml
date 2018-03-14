@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ToViewHongbaoDialog" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_png" left="0" top="0"/>
+	<e:Image source="date_png" right="0" top="226"/>
+	<e:Image source="ding_1_png" left="0" top="0"/>
+	<e:Image id="ExitImage" x="18" y="20" source="Exit_png"/>
+	<e:Image id="TheDetailImage" source="details_png" x="534" y="12"/>
+	<e:Label id="NameLabel" text="隔壁老王的红包" y="88" textColor="0xF79C07" size="30" fontFamily="Microsoft YaHei" textAlign="center" horizontalCenter="3"/>
+	<e:Label id="TxteLabel" text="10个红包共50元，50秒被抢光" y="240" size="24" fontFamily="Microsoft YaHei" textColor="0x797C7C" left="16"/>
+	<e:Scroller id="GameScroller" width="640" height="835" y="298" anchorOffsetX="0" left="0" anchorOffsetY="0">
+		<e:Group id="GameGroup" anchorOffsetX="0" width="336" anchorOffsetY="0" height="818"/>
+	</e:Scroller>
+</e:Skin>

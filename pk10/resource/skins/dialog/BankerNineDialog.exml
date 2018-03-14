@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CarConcludeDialogSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="backgroundImage" width="640" height="1136" x="0" y="0" alpha="0.3" scale9Grid="2,3,48,47" source="bg_mask_new_png"/>
+	<e:Group width="580" height="250" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0" touchEnabled="false">
+		<e:Image scaleX="1" scaleY="1" source="bg_popup_new_png" left="0" right="0" top="0" bottom="0" scale9Grid="29,22,69,19"/>
+		<e:Label id="noticeLabel" text="输入金额" size="25" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" top="20" horizontalCenter="-226" textColor="0xc6bbb1"/>
+		<e:Button id="confirmButton" label="确定" x="80" anchorOffsetX="0" width="180" anchorOffsetY="0" height="70" skinName="skins.ButtonSkin" bottom="20">
+		</e:Button>
+		<e:Button id="cancelButton" label="取消" x="324" width="180" height="70" skinName="skins.ButtonSkin" bottom="20">
+		</e:Button>
+		<e:Group width="256" height="40" x="15" y="60" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image anchorOffsetX="0" anchorOffsetY="0" source="common_input_bg_png" top="0" bottom="0" left="0" right="0"/>
+			<e:TextInput id="bankCounTextInput" left="0" right="0" top="0" bottom="0" prompt="请输入奖池(最低10000)"/>
+		</e:Group>
+		<e:Group height="40" y="100" anchorOffsetX="0" anchorOffsetY="0" right="0" left="0" visible="false">
+			<e:CheckBox label="区域1" x="14.759999999999998" y="-4" skinName="skins.CommonCheckBoxSkin" anchorOffsetX="0" width="90" anchorOffsetY="0" height="42" scaleX="1" scaleY="1"/>
+			<e:CheckBox label="区域2" x="130.25" y="-4" skinName="skins.CommonCheckBoxSkin" anchorOffsetX="0" width="90" anchorOffsetY="0" height="42" scaleX="1" scaleY="1"/>
+			<e:CheckBox label="区域3" x="245.42999999999995" y="-4" skinName="skins.CommonCheckBoxSkin" anchorOffsetX="0" width="90" anchorOffsetY="0" height="42" scaleX="1" scaleY="1"/>
+			<e:CheckBox label="区域4" x="361.07" y="-4" skinName="skins.CommonCheckBoxSkin" anchorOffsetX="0" width="90" anchorOffsetY="0" height="42" scaleX="1" scaleY="1"/>
+			<e:CheckBox label="区域5" x="476.04" y="-4" skinName="skins.CommonCheckBoxSkin" anchorOffsetX="0" width="90" anchorOffsetY="0" height="42" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>
